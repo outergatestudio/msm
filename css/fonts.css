@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'clan';
+  src: url('../fonts/clanbook.woff2') format('woff2'),
+       url('../fonts/clanbook.woff') format('woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'clan';
+  src: url('../fonts/clanbold.woff2') format('woff2'),
+       url('../fonts/clanbold.woff') format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'clan';
+  src: url('../fonts/clanblack.woff2') format('woff2'),
+       url('../fonts/clanblack.woff') format('woff');
+  font-weight: 900;
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coronavirus - Municipalidad de San Martín</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/secciones.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/secciones_responsive.css">
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/dashboard_db.js"></script>
+    <script type="text/javascript" src="js/og_framework.js" defer="defer"></script>
+    <script type="text/javascript" src="js/main.js" defer="defer"></script>
+  </head>
+  <body>
+
+    <!-- Inicio -->
+    <header id="dashboard" class="stretched">
+      <!-- Desktop -->
+      <nav class="flexbox not-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank" id="old-home-a">
+          <img src="assets/msm.svg" style="height:100%;">
+        </a>
+        <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/" target="_blank" class="black">Guía de trámites</a>
+        <a href="http://cav.sanmartin.gov.ar/QyR/main.php" class="black">Reclamos</a>
+      </nav>
+      <nav class="flexbox not-mobile">
+        <a href="prevencion.html" class="flexbox">
+          <img src="assets/icon_iso2.svg" class="icon" style="--height: 1.85em;">
+          <p class="note">Prevención <br>Coronavirus</p>
+        </a class="flexbox">
+        <a href="ppff.html" class="flexbox">
+          <img src="assets/icon_iso2.svg" class="icon" style="--height: 1.85em;">
+          <p class="note">Preguntas <br>Frecuentes</p>
+        </a>
+        <a href="estado-situacion.html" class="flexbox">
+          <img src="assets/icon_iso2.svg" class="icon" style="--height: 1.85em;">
+          <p class="note">Coronavirus <br>en San Martín</p>
+        </a>
+      </nav>
+      <!-- Mobile -->
+      <a href="index.html" class="flexcol only-mobile">
+        <img src="assets/iso_smencasa.svg" class="icon" style="height: 2.8em; margin-bottom: 0.5em;">
+        <p class="note marginless">SM en casa</p>
+      </a>
+      <a href="estado-situacion.html" class="flexcol only-mobile">
+        <img src="assets/icon_iso2.svg" class="icon" style="height: 2.8em; margin-bottom: 0.5em;">
+        <p class="note marginless">COVID San Martín</p>
+      </a>
+      <a href="http://cav.sanmartin.gov.ar/QyR/main.php" class="flexcol only-mobile">
+        <img src="assets/icon_cav.svg" class="icon" style="height: 2.8em; margin-bottom: 0.5em;">
+        <p class="note marginless">Reclamos</p>
+      </a>
+    </header>
+
+    <header id="msm">
+      <a id="sm-encasa" class="not-mobile float-left">
+        <img src="assets/isologo_smencasa.svg">
+      </a>
+      <a href="index.html" id="logo-sm">
+        <img src="assets/logo.svg" alt="Municipalidad de San Martín">
+      </a>
+      <div id="social" class="flexbox float-right not-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank"><img src="assets/icon_lupa.svg" class="icon"></a>
+        <a href="https://www.instagram.com/sanmartingob/" target="_blank"><img src="assets/icon_ig.svg" class="icon"></a>
+        <a href="https://twitter.com/sanmartingob" target="_blank"><img src="assets/icon_twitter.svg" class="icon"></a>
+        <a href="https://www.facebook.com/sanmartingob?_rdr" target="_blank"><img src="assets/icon_fb.svg" class="icon"></a>
+        <a href="https://www.youtube.com/channel/UCEAJLHb4SDDZbEeRJjtLXJA" target="_blank"><img src="assets/icon_youtube.svg" class="icon"></a>
+      </div>
+      <!-- Mobile -->
+      <div id="hamburguer" class="flexbox float-left only-mobile">
+        <img src="assets/icon_burger.svg" class="icon">
+      </div>
+      <div id="lupa" class="flexbox float-right only-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank">
+          <img src="assets/icon_lupa-black.svg" class="icon">
+        </a>
+      </div>
+
+      <aside id="mobile-menu" class="only-mobile">
+        <nav class="flexcol flex-start">
+          <a href="http://www.sanmartin.gov.ar/"><img src="assets/msm-azul.svg" class="icon"></a>
+          <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/">Guía de trámites</a>
+          <a href="http://cav.sanmartin.gov.ar/QyR/main.php">Reclamos</a>
+          <a href="estado-situacion.html">Coronavirus</a>
+          <a href="prevencion.html">Prevención</a>
+          <a href="ppff.html">Preguntas frecuentes</a>
+          <a href="index.html/#actividades">Actividades</a>
+          <a href="personas-mayores.html">Personas mayores</a>
+        </nav>
+      </aside>
+    </header>
+
+    <section id="banner-ays" class="banner not-mobile">
+      <article class="flexbox stretched">
+        <h3 class="marginless"><span class="black">San Martín en casa</span> | <span class="black t-celeste">Servicios</span> desde tu compu</h3>
+      </article>
+      <hr>
+      <article>
+        <nav class="flexbox seminote black t-celeste">
+          <a href="#">TRÁMITES</a>
+          <a href="#">RECLAMOS</a>
+          <a href="#">TASAS</a>
+          <a href="#">DEF. AL CONSUMIDOR</a>
+        </nav>
+      </article>
+    </section>
+
+    <section class="lista-articulos">
+    </section>
+
+    <section id="actividades">
+      <h3 class="bold t-magenta">actividades</h3>
+      <carrousel class="cards">
+        <items>
+          <item>
+            <a href="https://www.youtube.com/watch?v=6GNdUFgSzZo" target="_blank" class="picture">
+              <img src="src/actividades/01_Gasometro.jpg">
+              <p class="note bold">MUNDO SAN MARTÍN</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">El Gasómetro de Villa Maipú</p>
+                <p>La historia del tanque gas construído a fines de los ‘40.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="https://www.youtube.com/watch?v=6GNdUFgSzZo"><img src="assets/icon_share-mag.svg"></a>
+                <a href="https://www.youtube.com/watch?v=6GNdUFgSzZo" target="_blank" ><img src="assets/icon_plus-mag.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="https://www.youtube.com/watch?v=aPTFrZ8_Ywo" target="_blank" class="picture">
+              <img src="src/actividades/02_historieta.png">
+              <p class="note bold t-azul">ARTES PLÁSTICAS</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Dibujemos historietas en familia</p>
+                <p>Consejos del ilustrador y vecino de la ciudad, Juan Sabatez</p>
+              </div>
+              <div class="links">
+                <a class="share" href="https://www.youtube.com/watch?v=aPTFrZ8_Ywo"><img src="assets/icon_share-mag.svg"></a>
+                <a href="https://www.youtube.com/watch?v=aPTFrZ8_Ywo" target="_blank"><img src="assets/icon_plus-mag.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="https://youtu.be/suuyCIrDctk" class="picture">
+              <img src="src/actividades/danzas.png">
+              <p class="note bold">ARTES ESCÉNICAS</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Visto en San Martín, arte en movimiento</p>
+                <p>Espectáculo grabado en vivo de la Compañía Juvenil de Danza.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="https://youtu.be/suuyCIrDctk"><img src="assets/icon_share-mag.svg"></a>
+                <a href="https://youtu.be/suuyCIrDctk"><img src="assets/icon_plus-mag.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a  href="https://www.youtube.com/watch?v=EeRHOQZJ-To" target="_blank" class="picture">
+              <img src="src/actividades/04_Cafrune.jpg">
+              <p class="note bold">COMUNIDAD</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Yamila Cafrune nos comparte su día</p>
+                <p>La cantante le dedica una media zamba a las vecinas y vecinos de la ciudad.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="https://www.youtube.com/watch?v=EeRHOQZJ-To"><img src="assets/icon_share-mag.svg"></a>
+                <a href="https://www.youtube.com/watch?v=EeRHOQZJ-To" target="_blank"><img src="assets/icon_plus-mag.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="https://www.youtube.com/watch?v=7KN27ckjuU4" target="_blank" class="picture">
+              <img src="src/actividades/05_DrRossetti.jpeg">
+              <p class="note bold">MUNDO SAN MARTÍN</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">El Dr. López Rosetti, referente indiscutido</p>
+                <p>El destacado médico dio sus primeros pasos en la ciudad.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="https://www.youtube.com/watch?v=7KN27ckjuU4"><img src="assets/icon_share-mag.svg"></a>
+                <a href="https://www.youtube.com/watch?v=7KN27ckjuU4" target="_blank"><img src="assets/icon_plus-mag.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="https://www.youtube.com/watch?v=24RYEzmni1Q" target="_blank" class="picture">
+              <img src="src/actividades/metegol_xlas.jpg">
+              <p class="note bold">MANUALIDADES</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Metegol casero para jugar en familia</p>
+                <p>Idea entretenida para armar en casa, de la Elefanta Rodante.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="https://www.youtube.com/watch?v=24RYEzmni1Q"><img src="assets/icon_share-mag.svg"></a>
+                <a href="https://www.youtube.com/watch?v=24RYEzmni1Q" target="_blank"><img src="assets/icon_plus-mag.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="https://www.youtube.com/watch?v=6mdT2h_hMM8&feature=youtu.be" target="_blank" class="picture">
+              <img src="src/actividades/07_museo.jpg">
+              <p class="note bold t-magenta">CULTURA</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">De visita en el Museo</p>
+                <p>Recorrido visual por el Museo Histórico José Hernández</p>
+              </div>
+              <div class="links">
+                <a class="share" href="https://www.youtube.com/watch?v=6mdT2h_hMM8&feature=youtu.be"><img src="assets/icon_share-mag.svg"></a>
+                <a href="https://www.youtube.com/watch?v=6mdT2h_hMM8&feature=youtu.be" target="_blank"><img src="assets/icon_plus-mag.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="https://www.youtube.com/watch?v=b5sxjC9VF9g" target="_blank" class="picture">
+              <img src="src/actividades/ritmoslatinos.jpg">
+              <p class="note bold">BIENESTAR</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Ritmos latinos para todas las edades</p>
+                <p>Subí el volumen y divertite con esta clase especial.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="https://www.youtube.com/watch?v=b5sxjC9VF9g"><img src="assets/icon_share-mag.svg"></a>
+                <a href="https://www.youtube.com/watch?v=b5sxjC9VF9g" target="_blank"><img src="assets/icon_plus-mag.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="https://www.youtube.com/watch?v=4heCLOG71MI" target="_blank" class="picture">
+              <img src="src/actividades/09_pancho46.jpg">
+              <p class="note bold">MUNDO SAN MARTÍN</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">El Pancho 46, emblema de la ciudad</p>
+                <p>Con más de 50 años, es la panchería más famosa.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="https://www.youtube.com/watch?v=4heCLOG71MI"><img src="assets/icon_share-mag.svg"></a>
+                <a href="https://www.youtube.com/watch?v=4heCLOG71MI" target="_blank"><img src="assets/icon_plus-mag.svg"></a>
+              </div>
+            </div>
+          </item>
+        </items>
+        <button type="prev" name="button">
+          <img src="assets/icon_arrow-mag-izq.svg" class="icon">
+        </button>
+        <button type="next" name="button">
+          <img src="assets/icon_arrow-mag-der.svg" class="icon">
+        </button>
+      </carrousel>
+      <div class="flexbox centered">
+        <a class="button b-magenta flexbox" href="actividades.html">
+          <p class="marginless">Ver todos las actividades</p>
+          <img class="arrow-button" src="assets/icon_arrow-white-der.svg" style="margin-left:3em;">
+        </a>
+      </div>
+    </section>
+
+    <footer class="stretched">
+      <img src="assets/msm-azul.svg" class="not-mobile">
+      <p class="note">
+        Municipalidad de San Martín<span class="not-mobile"> · </span><br class="only-mobile">Belgrano 3747 · <br class="only-mobile">Buenos Aires<span class="not-mobile"> · </span>Argentina<span class="not-mobile"> · </span><br class="only-mobile">
+        Tel. 147 <br> <span class="not-mobile"></span><br class="only-mobile"><br class="only-mobile">Copyright (c) 2020 <span class="not-mobile"> · </span><br class="only-mobile">Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <aside class="flexbox" id="share-warning">
+      <figure>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      </figure>
+      <p>¡Enlace copiado y listo para compartir!</p>
+    </aside>
+
+    <script type="text/javascript" src="js/servicios_db.js"></script>
+    <script type="text/javascript">
+      let serviciosFrame = document.querySelector(".lista-articulos");
+      
+      printServicios(serviciosFrame);
+      window.requestAnimationFrame(function(){
+        if(window.scrollY > 0){
+          window.scrollBy(0, 0 - headerMsmOrigin - document.getElementById("banner-ays").offsetHeight);
+        }
+      });
+    </script>
+  </body>
+</html>

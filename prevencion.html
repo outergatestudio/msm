@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coronavirus - Municipalidad de San Martín</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/secciones.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/secciones_responsive.css">
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/dashboard_db.js"></script>
+    <script type="text/javascript" src="js/og_framework.js" defer="defer"></script>
+    <script type="text/javascript" src="js/main.js" defer="defer"></script>
+  </head>
+  <body>
+    <header id="msm">
+      <a id="sm-encasa" class="not-mobile float-left">
+        <img src="assets/isologo_smencasa.svg">
+      </a>
+      <a href="index.html" id="logo-sm">
+        <img src="assets/logo.svg" alt="Municipalidad de San Martín">
+      </a>
+      <div id="social" class="flexbox float-right not-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank"><img src="assets/icon_lupa.svg" class="icon"></a>
+        <a href="https://www.instagram.com/sanmartingob/" target="_blank"><img src="assets/icon_ig.svg" class="icon"></a>
+        <a href="https://twitter.com/sanmartingob" target="_blank"><img src="assets/icon_twitter.svg" class="icon"></a>
+        <a href="https://www.facebook.com/sanmartingob?_rdr" target="_blank"><img src="assets/icon_fb.svg" class="icon"></a>
+        <a href="https://www.youtube.com/channel/UCEAJLHb4SDDZbEeRJjtLXJA" target="_blank"><img src="assets/icon_youtube.svg" class="icon"></a>
+      </div>
+      <!-- Mobile -->
+      <div id="hamburguer" class="flexbox float-left only-mobile">
+        <img src="assets/icon_burger.svg" class="icon">
+      </div>
+      <div id="lupa" class="flexbox float-right only-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank">
+          <img src="assets/icon_lupa-black.svg" class="icon">
+        </a>
+      </div>
+
+      <aside id="mobile-menu" class="only-mobile">
+        <nav class="flexcol flex-start">
+          <a href="http://www.sanmartin.gov.ar/"><img src="assets/msm-azul.svg" class="icon"></a>
+          <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/">Guía de trámites</a>
+          <a href="http://cav.sanmartin.gov.ar/QyR/main.php">Reclamos</a>
+          <a href="estado-situacion.html">Coronavirus</a>
+          <a href="prevencion.html">Prevención</a>
+          <a href="ppff.html">Preguntas frecuentes</a>
+          <a href="index.html/#actividades">Actividades</a>
+          <a href="personas-mayores.html">Personas mayores</a>
+        </nav>
+      </aside>
+    </header>
+
+    <section id="dashboard2">
+      <div class="titulo">
+        <p class="titulo-dash">Coronavirus en San Martín</p>
+        <p class="bajada-dash" id="db-fecha">Datos al:</p>
+      </div>
+      <div class="datos">
+        <span class="dash-dato1 dato">
+          <h2 class="dash-num db-afectados"></h2>
+          <p class="ref-num black">Total de afectados</p>
+        </span>
+        <span class="dash-dato2 dato">
+          <h2 class="dash-num db-activos"></h2>
+          <p class="ref-num black">Infectados activos</p>
+        </span>
+        <span class="dash-dato3 dato">
+          <h2 class="dash-num db-recuperados"></h2>
+          <p class="ref-num black">Recuperados</p>
+        </span>
+        <span class="dash-dato4 dato">
+          <h2 class="dash-num db-fallecidos"></h2>
+          <p class="ref-num black">Fallecidos</p>
+        </span>
+      </div>
+    </section>
+
+    <section>
+      <article class="ppff-grid">
+        <article class="preg-frec-items">
+          <p class="copete">EVITEMOS EL AVANCE</p>
+          <h1 class="black titulo-prevencion">Recomendaciones para cuidarte vos, y toda tu familia</h1>
+          <h3 class="bajada-prev">Tratá de informarte a través de medios oficiales y seguí estos consejos para hacerle frente a la pandemia desde tu casa.</h3>
+        </article>
+
+        <nav class="flexbox not-mobile flexblox-estado items">
+          <a href="estado-situacion.html" class="flexbox">
+            <img src="assets/icon_iso3.svg" class="icon" style="--height: 1.85em;">
+            <p class="note">Coronavirus <br>en San Martín</p>
+          </a>
+          <a href="ppff.html" class="flexbox">
+            <img src="assets/icon_iso3.svg" class="icon" style="--height: 1.85em;">
+            <p class="note">Preguntas <br>Frecuentes</p>
+          </a>
+        </nav>
+      </article>
+    </section>
+
+    <section class="prevencion" id="covid-sm">
+      <article class="articulo1-acciones">
+        <h2 class="titulo-prevencion black">Medidas de protección básicas</h2>
+        <p class="bajada-prevencion cna2">Es muy importante que adoptes las siguientes medidas de higiene para prevenir el contagio:</p>
+      </article>
+    </section>
+
+    <section id="grid-prevencion">
+      <div class="flexcol centered">
+        <img src="src/prevencion/prevencion-desinfecta.png" class="ilustra">
+        <p class="black texto-ilustra-prev">lavate la manos con agua y jabón de manera frecuente</p>
+      </div>
+      <div class="flexcol centered">
+        <img src="src/prevencion/prevencion-codo.png" class="ilustra">
+        <p class="black texto-ilustra-prev">tosé o estornudá sobre el pliegue del codo</p>
+      </div>
+      <div class="flexcol centered">
+        <img src="src/prevencion/prevencion-manos.png" class="ilustra">
+        <p class="black texto-ilustra-prev">no te lleves las manos a la cara</p>
+      </div>
+      <div class="flexcol centered">
+        <img src="src/prevencion/prevencion-ventila.png" class="ilustra">
+        <p class="black texto-ilustra-prev">ventilá bien los ambientes</p>
+      </div>
+      <div class="flexcol centered">
+        <img src="src/prevencion/prevencion-desinfecta.png" class="ilustra">
+        <p class="black texto-ilustra-prev">desinfectá los objetos que utilizás a diario</p>
+      </div>
+      <div class="flexcol centered">
+        <img src="src/prevencion/prevencion-distancia.png" class="ilustra">
+        <p class="black texto-ilustra-prev">si salís de tu casa, mantené la distancia social</p>
+      </div>
+    </section>
+
+    <!-- <section>
+      <article class="ppff-grid">
+        <article class="preg-frec-items">
+          <h2 class="titulo-prevencion black">Cuidados en el hogar</h2>
+          <p class="bajada-prevencion cna2">Seguí estas recomendaciones para mantener una higiene adecuada en tu casa y tomá las precauciones necesarias.</p>
+          <br><br>
+          <h2 class="titulo-prevencion black">Salud emocional</h2>
+          <p class="bajada-prevencion cna2">Cuidá tu salud emocional y tené en cuenta estas sugerencias para mantener una actitud positiva durante la cuarentena.</p>
+          <br><br>
+          <h2 class="titulo-prevencion black">Salir de compras o ir al banco</h2>
+          <p class="bajada-prevencion cna2">Si tenés que salir de tu casa, mantené la distancia social, utilizá tapaboca y prestá atención estos consejos.</p>
+          <br><br>
+        </article>
+      </article>
+    </section> -->
+
+    <button class="flexbox stretched" drop-down="_hogar" chain="prevencion">
+      <p class="marginless">Cuidados en el hogar</p>
+      <img class="arrow-button" src="assets/icon_arrow-white-der.svg">
+    </button>
+    <section class="ppff-grid v-paddingless" id="_hogar">
+      <span class="preg-frec-items">
+        <!-- <h3 class="titulo-noticias-ppff black">Lorem ipsum et dolor</h3> -->
+        <p class="bajada-prevencion cna2 black">Seguí estas recomendaciones para mantener una higiene adecuada en tu casa y tomar las precauciones necesarias.</p>
+        <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/BL6H2BBrdNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </span>
+    </section>
+
+    <button class="flexbox stretched" drop-down="_alimentos" chain="prevencion">
+      <p class="marginless">Salud emocional</p>
+      <img class="arrow-button" src="assets/icon_arrow-white-der.svg">
+    </button>
+    <section class="ppff-grid v-paddingless" id="_alimentos">
+      <span class="preg-frec-items">
+        <!-- <h3 class="titulo-noticias-ppff black">Lorem ipsum et dolor</h3> -->
+        <p class="bajada-prevencion cna2 black">Cuidá tu salud emocional y tené en cuenta estas sugerencias para mantener una actitud positiva durante la cuarentena.</p>
+        <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/pdQKSe9zFxE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </span>
+    </section>
+
+    <button class="flexbox stretched" drop-down="_practicas" chain="prevencion">
+      <p class="marginless">Salir de compras o ir al banco</p>
+      <img class="arrow-button" src="assets/icon_arrow-white-der.svg">
+    </button>
+    <section class="ppff-grid v-paddingless" id="_practicas">
+      <span class="preg-frec-items">
+        <!-- <h3 class="titulo-noticias-ppff black">Lorem ipsum et dolor</h3> -->
+        <p class="bajada-prevencion cna2 black">Si tenés que salir de tu casa, mantené la distancia social, utilizá tapaboca y prestá atención a estos consejos.</p>
+        <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/JS5dXVy1Lq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </span>
+    </section>
+
+    <button class="flexbox stretched" drop-down="_cuarentena-familia" chain="prevencion">
+      <p class="marginless">Cuarentena en familia</p>
+      <img class="arrow-button" src="assets/icon_arrow-white-der.svg">
+    </button>
+    <section class="ppff-grid v-paddingless" id="_cuarentena-familia">
+      <span class="preg-frec-items">
+        <!-- <h3 class="titulo-noticias-ppff black">Lorem ipsum et dolor</h3> -->
+        <p class="bajada-prevencion cna2 black">Recomendaciones para acompañar a las niñas y niños durante el aislamiento social.</p>
+        <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/KcB1xxLDncs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </span>
+    </section>
+
+    <button class="flexbox stretched" drop-down="_barbijo-casero" chain="prevencion">
+      <p class="marginless">Uso de barbijo casero</p>
+      <img class="arrow-button" src="assets/icon_arrow-white-der.svg">
+    </button>
+    <section class="ppff-grid v-paddingless" id="_barbijo-casero">
+      <span class="preg-frec-items">
+        <!-- <h3 class="titulo-noticias-ppff black">Lorem ipsum et dolor</h3> -->
+        <p class="bajada-prevencion cna2 black">Armá tu propio tapaboca para utilizar cuando necesites salir, recordá que su uso es obligatorio.</p>
+        <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/gP9bZitwBNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </span>
+    </section>
+
+    <button class="flexbox stretched" drop-down="_quedemonos" chain="prevencion">
+      <p class="marginless">#QuedémonosEnCasa</p>
+      <img class="arrow-button" src="assets/icon_arrow-white-der.svg">
+    </button>
+    <section class="ppff-grid v-paddingless" id="_quedemonos">
+      <span class="preg-frec-items">
+        <!-- <h3 class="titulo-noticias-ppff black">Lorem ipsum et dolor</h3> -->
+        <p class="bajada-prevencion cna2 black">Los equipos de salud de San Martín están trabajando para cuidar a toda la comunidad, respetemos el aislamiento social.</p>
+        <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/6DCpWgf1vME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </span>
+    </section>
+
+    <section style="background-color:whitesmoke;">
+      <!-- VACÍA PARA ESPACIO -->
+      <article id="ppff-grid">
+        <div class="botones-ppff">
+          <a href="estado-situacion.html" class="button b-magenta boton-ppff">Estado de situación
+          <img class="arrow-button" src="assets/icon_arrow-white-der.svg" alt="">
+          </a>
+          <a href="ppff.html" class="button b-magenta boton-ppff">Preguntas Frecuentes
+          <img class="arrow-button" src="assets/icon_arrow-white-der.svg" alt="">
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <nav class="flexbox stretched foot seminote">
+      <!-- Desktop -->
+      <a href="http://www.sanmartin.gov.ar/" class="black t-celeste not-mobile">MUNICIPIO</a>
+      <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/" class="black t-celeste not-mobile">GUÍA DE TRÁMITES</a>
+      <a href="http://cav.sanmartin.gov.ar/QyR/main.php" class="black t-celeste not-mobile">RECLAMOS</a>
+      <a href="index.html#servicios" class="black t-celeste not-mobile">SERVICIOS</a>
+      <a href="estado-situacion.html" class="black t-magenta not-mobile">CORONAVIRUS SM</a>
+      <a href="ppff.html" class="black t-magenta not-mobile">PREGUNTAS FRECUENTES</a>
+      <a href="index.html#actividades" class="black t-magenta not-mobile">ACTIVIDADES</a>
+      <!-- mobile -->
+      <a href="http://www.sanmartin.gov.ar/" class="only-mobile" target="_blank">
+        <img src="assets/msm.svg" style="height:1.5em;">
+      </a>
+      <nav id="social-mobile" class="flexbox only-mobile">
+        <a href="https://www.instagram.com/sanmartingob/" target="_blank"><img src="assets/icon_ig-blanco.svg" class="icon"></a>
+        <a href="https://twitter.com/sanmartingob" target="_blank"><img src="assets/icon_twitter-blanco.svg" class="icon"></a>
+        <a href="https://www.facebook.com/sanmartingob?_rdr" target="_blank"><img src="assets/icon_fb-blanco.svg" class="icon"></a>
+        <a href="https://www.youtube.com/channel/UCEAJLHb4SDDZbEeRJjtLXJA" target="_blank"><img src="assets/icon_youtube-blanco.svg" class="icon"></a>
+      </nav>
+    </nav>
+    <footer class="stretched">
+      <img src="assets/msm-azul.svg" class="not-mobile">
+      <p class="note">
+        Municipalidad de San Martín<span class="not-mobile"> · </span><br class="only-mobile">Belgrano 3747 · <br class="only-mobile">Buenos Aires<span class="not-mobile"> · </span>Argentina<span class="not-mobile"> · </span><br class="only-mobile">
+        Tel. 147 <br> <span class="not-mobile"></span><br class="only-mobile"><br class="only-mobile">Copyright (c) 2020 <span class="not-mobile"> · </span><br class="only-mobile">Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>

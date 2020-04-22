@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coronavirus - Municipalidad de San Martín</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/secciones.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/secciones_responsive.css">
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/dashboard_db.js"></script>
+    <script type="text/javascript" src="js/og_framework.js" defer="defer"></script>
+    <script type="text/javascript" src="js/main.js" defer="defer"></script>
+  </head>
+  <body>
+
+    <header id="msm">
+      <a id="sm-encasa" class="not-mobile float-left">
+        <img src="assets/isologo_smencasa.svg">
+      </a>
+      <a href="index.html" id="logo-sm">
+        <img src="assets/logo.svg" alt="Municipalidad de San Martín">
+      </a>
+      <div id="social" class="flexbox float-right not-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank"><img src="assets/icon_lupa.svg" class="icon"></a>
+        <a href="https://www.instagram.com/sanmartingob/" target="_blank"><img src="assets/icon_ig.svg" class="icon"></a>
+        <a href="https://twitter.com/sanmartingob" target="_blank"><img src="assets/icon_twitter.svg" class="icon"></a>
+        <a href="https://www.facebook.com/sanmartingob?_rdr" target="_blank"><img src="assets/icon_fb.svg" class="icon"></a>
+        <a href="https://www.youtube.com/channel/UCEAJLHb4SDDZbEeRJjtLXJA" target="_blank"><img src="assets/icon_youtube.svg" class="icon"></a>
+      </div>
+      <!-- Mobile -->
+      <div id="hamburguer" class="flexbox float-left only-mobile">
+        <img src="assets/icon_burger.svg" class="icon">
+      </div>
+      <div id="lupa" class="flexbox float-right only-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank">
+          <img src="assets/icon_lupa-black.svg" class="icon">
+        </a>
+      </div>
+
+      <aside id="mobile-menu" class="only-mobile">
+        <nav class="flexcol flex-start">
+          <a href="http://www.sanmartin.gov.ar/"><img src="assets/msm-azul.svg" class="icon"></a>
+          <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/">Guía de trámites</a>
+          <a href="http://cav.sanmartin.gov.ar/QyR/main.php">Reclamos</a>
+          <a href="estado-situacion.html">Coronavirus</a>
+          <a href="prevencion.html">Prevención</a>
+          <a href="ppff.html">Preguntas frecuentes</a>
+          <a href="index.html/#actividades">Actividades</a>
+          <a href="personas-mayores.html">Personas mayores</a>
+        </nav>
+      </aside>
+    </header>
+
+    <section id="dashboard2">
+      <div class="titulo">
+        <p class="titulo-dash">Coronavirus en San Martín</p>
+        <p class="bajada-dash" id="db-fecha">Datos al:</p>
+      </div>
+      <div class="datos">
+        <span class="dash-dato1 dato">
+          <h2 class="dash-num db-afectados"></h2>
+          <p class="ref-num black">Total de afectados</p>
+        </span>
+        <span class="dash-dato2 dato">
+          <h2 class="dash-num db-activos"></h2>
+          <p class="ref-num black">Infectados activos</p>
+        </span>
+        <span class="dash-dato3 dato">
+          <h2 class="dash-num db-recuperados"></h2>
+          <p class="ref-num black">Recuperados</p>
+        </span>
+        <span class="dash-dato4 dato">
+          <h2 class="dash-num db-fallecidos"></h2>
+          <p class="ref-num black">Fallecidos</p>
+        </span>
+      </div>
+    </section>
+
+    <section class="estado" id="covid-sm">
+      <article class="">
+        <p class="copete">ALSMI- COMERCIALES- AUTOMOTOR</p>
+        <h1 class="black">En la pandemia, <br> el aporte de todos nos cuida</h1>
+        <h3 class="interlined black">Establecimos facilidades de pago para que puedas cumplir con tus tasas, en hasta 3 y 6 cuotas, sin intereses.</h3>
+        <p class="interlined cuerpo-estado">Sin embargo, si está dentro de tus posibilidades, es importante que realices el pago completo de tus impuestos a fin de que el Estado local cuente con los recursos necesarios para frenar el avance del virus en la ciudad y continuar siendo un Municipio presente.</p>
+      </article>
+
+      <article class="articulo1-acciones">
+        <h3 class="titulo-noticias-abuelos black">Facilidades de pago</h3>
+        <p class="contenido-noticias-abuelos cna2">Este beneficio podés solicitarlo para los impuestos <span class="black">cuyos vencimientos operen entre el 1/4 y el 31/5</span>, abonando un anticipo del 20%.</p>
+        <p class="contenido-noticias-abuelos cna2">En el caso de <span class="black">ALSMI</span> (Alumbrado, Limpieza y Servicios Municipales Indirectos), <span class="black">Automotor</span> (Derecho de Registro de Vehículos Automotores y Motovehículos) y <span class="black">Monotasa</span> podés solicitar una financiación de hasta 3 cuotas (el monto de cada cuota no debe ser inferior a $300).</p>
+        <p class="contenido-noticias-abuelos cna2">En cuanto a la <span class="black">TISeH</span> (Tasa por Inspección de Seguridad e Higiene), podés acceder a una financiación de hasta 6 cuotas (el monto de cada cuota no debe ser inferior a $500).</p>
+      </article>
+
+      <article class="articulo1-acciones">
+        <h3 class="titulo-noticias-abuelos black">¿Cómo se realiza el trámite?</h3>
+        <p class="contenido-noticias-abuelos cna2">De manera online, a través de la web municipal ingresando <a href="http://ventanillavirtual.sanmartin.gov.ar/planeswebcovid/" class="black" style="color: var(--msm-celeste);" target="_blank">acá</a>.</p>
+        <p class="contenido-noticias-abuelos cna2">El trámite debe realizarse por cada cuota y tasa que desees financiar. Una vez solicitado, tendrás que pagar un anticipo del 20% del importe dentro de los 5 días, mientras que el resto de las cuotas deberás abonarlas a partir del mes siguiente.</p>
+      </article>
+
+      <article class="articulo1-acciones">
+        <h3 class="titulo-noticias-abuelos black">¿Cuándo se puede solicitar?</h3>
+        <p class="contenido-noticias-abuelos cna2">Hasta el último día hábil del mes, de acuerdo con el vencimiento de cada tasa. Por ejemplo, si la TISeH vence el 15/4, es posible acceder al beneficio hasta el 30/4.</p>
+        <p class="contenido-noticias-abuelos cna2">Podés abonar tus tasas a través de los <a href="http://www.sanmartin.gov.ar/tramites/pagos-online/" class="black" style="color: var(--msm-celeste);" target="_blank">medios online habilitados</a> o solicitar un turno online para pagar en las <a href="http://turnos.sanmartin.gov.ar/home2.faces?origen=GuiaTramites&codigoTramite=2224309" class="black" style="color: var(--msm-celeste);" target="_blank">cajas habilitadas del Palacio Municipal</a>.</p>
+        <p class="contenido-noticias-abuelos cna2">Para más información, llamá al <span class="black">147, opción 6</span>, de lunes a viernes, de 8 a 14 h.</p>
+      </article>
+    </section>
+
+    <nav class="flexbox stretched foot seminote">
+      <!-- Desktop -->
+      <a href="http://www.sanmartin.gov.ar/" class="black t-celeste not-mobile">MUNICIPIO</a>
+      <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/" class="black t-celeste not-mobile">GUÍA DE TRÁMITES</a>
+      <a href="http://cav.sanmartin.gov.ar/QyR/main.php" class="black t-celeste not-mobile">RECLAMOS</a>
+      <a href="index.html#servicios" class="black t-celeste not-mobile">SERVICIOS</a>
+      <a href="estado-situacion.html" class="black t-magenta not-mobile">CORONAVIRUS SM</a>
+      <a href="ppff.html" class="black t-magenta not-mobile">PREGUNTAS FRECUENTES</a>
+      <a href="index.html#actividades" class="black t-magenta not-mobile">ACTIVIDADES</a>
+      <!-- mobile -->
+      <a href="http://www.sanmartin.gov.ar/" class="only-mobile" target="_blank">
+        <img src="assets/msm.svg" style="height:1.5em;">
+      </a>
+      <nav id="social-mobile" class="flexbox only-mobile">
+        <a href="https://www.instagram.com/sanmartingob/" target="_blank"><img src="assets/icon_ig-blanco.svg" class="icon"></a>
+        <a href="https://twitter.com/sanmartingob" target="_blank"><img src="assets/icon_twitter-blanco.svg" class="icon"></a>
+        <a href="https://www.facebook.com/sanmartingob?_rdr" target="_blank"><img src="assets/icon_fb-blanco.svg" class="icon"></a>
+        <a href="https://www.youtube.com/channel/UCEAJLHb4SDDZbEeRJjtLXJA" target="_blank"><img src="assets/icon_youtube-blanco.svg" class="icon"></a>
+      </nav>
+    </nav>
+    <footer class="stretched">
+      <img src="assets/msm-azul.svg" class="not-mobile">
+      <p class="note">
+        Municipalidad de San Martín<span class="not-mobile"> · </span><br class="only-mobile">Belgrano 3747 · <br class="only-mobile">Buenos Aires<span class="not-mobile"> · </span>Argentina<span class="not-mobile"> · </span><br class="only-mobile">
+        Tel. 147 <br> <span class="not-mobile"></span><br class="only-mobile"><br class="only-mobile">Copyright (c) 2020 <span class="not-mobile"> · </span><br class="only-mobile">Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>

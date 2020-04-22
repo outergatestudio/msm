@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+/* Desktop */
+@media screen and (max-width: 981px) {
+  .ppff-grid{
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+  .preg-frec-items{
+    padding: 25px 0px 25px 0px;
+  }
+  .ilus-ppff{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+  }
+  .ilustracion-ppff{
+    width: 12em;
+  }
+  .items{
+    display: none;
+  }
+  .ref-num{
+    width: auto;
+    font-size: .9em;
+  }
+}
+@media screen and (max-width: 1200px){
+  .datos{
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1200px){
+  .datos{
+    width: 55%;
+  }
+}
+@media screen and (max-width: 810px) {
+  #dashboard2{
+    display: block;
+    height: auto;
+  }
+  .titulo-dash{
+    font-size: 1.7em;
+    margin: 0px;
+    padding: 0px;
+  }
+  .bajada-dash{
+    font-size: 1.2em;
+  }
+  .datos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+  }
+  .dato{
+    width: 5em;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #slide-abuelos{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .botones-ppff{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding-top: 0em;
+  }
+  .boton-ppff{
+    margin-top: 20px;
+    width: 90%;
+  }
+  /* abuelos */
+  .titulo-abuelos{
+    width: 80%;
+  }
+  .bajada-abuelos{
+    width: 100%;
+  }
+  .grid-abuelos{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .ilustracion-ppff{
+    width: 7em;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .botones-ppff{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  .ilus-ppff{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+  }
+  .ilustracion-ppff{
+    width: 12em;
+    padding-bottom: 3em;
+  }
+  .preg-frec-items{
+    padding: 15px 0px 15px 0px;
+  }
+  .botones-ppff{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding-top: 0em;
+  }
+  .boton-ppff{
+    margin-top: 20px;
+    width: 90%;
+  }
+  .ref-num{
+    font-size: .8em;
+  }
+}
+
+/* abuelos */
+@media screen and (max-width: 720px) {
+  #splash{
+    height: 20em;
+    background-size: 50% 50%;
+  }
+  .logo-abuelos{
+    display: block;
+  }
+  .titulo-abuelos{
+    width: 80%;
+  }
+  .bajada-abuelos{
+    width: 100%;
+  }
+  .grid-abuelos{
+    width: 100%;
+    padding-top: 4em;
+    grid-gap: 2em;
+  }
+}
+/* estado de situacion */
+@media screen and (max-width: 980px){
+  #covid-sm{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .articulo1-acciones{
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 700px){
+  #covid-sm{
+    grid-template-columns: 1fr;
+    grid-gap: 1em 0em;
+  }
+  #img{
+    height: 18em;
+  }
+  .grid-tareas{
+    width: 100%;
+  }
+  .tareas{
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 360px){
+  #img{
+    height: 15em;
+  }
+}
+/* prevencion */
+@media screen and (max-width: 800px){
+  #grid-prevencion{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3em 1em;
+  }
+  .texto-ilustra-prev{
+    font-size: 1.4em;
+  }
+}
+@media screen and (max-width: 530px){
+  #grid-prevencion{
+    grid-template-columns: 1fr;
+    grid-gap: 3em 0em;
+  }
+  .ilustra{
+    height: 5em;
+  }
+  .titulo-prevencion{
+    font-size: 2.5em;
+    line-height: 1.15em;
+  }
+  .bajada-prevencion{
+    line-height: 1.3em;
+  }
+  .videos{
+    width: 280px;
+    height: 157px;
+  }
+}
+/* actividades */
+@media screen and (max-width: 981px) {
+  .grid-actividades{
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2em;
+  }
+}
+/* servicios */
+@media screen and (max-width: 981px) {
+  .serv-desarrollo{
+    width: 100%;
+  }
+  .grid-servicios{
+    grid-template-columns: 8em 1fr;
+  }
+}
+/* sintomas */
+@media screen and (max-width: 900px){
+  #grid-sintomas{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em 1em;
+  }
+}
+@media screen and (max-width: 500px){
+  #grid-sintomas{
+    grid-template-columns: 1fr;
+    grid-gap: 3em 1em;
+  }
+}
+
+/* telefonos utiles */
+@media screen and (max-width: 600px){
+  #grid-tel-utiles{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0em;
+  }
+  #grid-tel-utiles h4 {
+    font-size: 1.4em;
+  }
+  .numeros-utiles{
+    font-size: 1.2em;
+  }
+}

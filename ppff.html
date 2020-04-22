@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coronavirus - Municipalidad de San Martín</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/secciones.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/secciones_responsive.css">
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/dashboard_db.js"></script>
+    <script type="text/javascript" src="js/og_framework.js" defer="defer"></script>
+    <script type="text/javascript" src="js/main.js" defer="defer"></script>
+  </head>
+  <body>
+
+    <header id="msm">
+      <a id="sm-encasa" class="not-mobile float-left">
+        <img src="assets/isologo_smencasa.svg">
+      </a>
+      <a href="index.html" id="logo-sm">
+        <img src="assets/logo.svg" alt="Municipalidad de San Martín">
+      </a>
+      <div id="social" class="flexbox float-right not-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank"><img src="assets/icon_lupa.svg" class="icon"></a>
+        <a href="https://www.instagram.com/sanmartingob/" target="_blank"><img src="assets/icon_ig.svg" class="icon"></a>
+        <a href="https://twitter.com/sanmartingob" target="_blank"><img src="assets/icon_twitter.svg" class="icon"></a>
+        <a href="https://www.facebook.com/sanmartingob?_rdr" target="_blank"><img src="assets/icon_fb.svg" class="icon"></a>
+        <a href="https://www.youtube.com/channel/UCEAJLHb4SDDZbEeRJjtLXJA" target="_blank"><img src="assets/icon_youtube.svg" class="icon"></a>
+      </div>
+      <!-- Mobile -->
+      <div id="hamburguer" class="flexbox float-left only-mobile">
+        <img src="assets/icon_burger.svg" class="icon">
+      </div>
+      <div id="lupa" class="flexbox float-right only-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank">
+          <img src="assets/icon_lupa-black.svg" class="icon">
+        </a>
+      </div>
+
+      <aside id="mobile-menu" class="only-mobile">
+        <nav class="flexcol flex-start">
+          <a href="http://www.sanmartin.gov.ar/"><img src="assets/msm-azul.svg" class="icon"></a>
+          <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/">Guía de trámites</a>
+          <a href="http://cav.sanmartin.gov.ar/QyR/main.php">Reclamos</a>
+          <a href="estado-situacion.html">Coronavirus</a>
+          <a href="prevencion.html">Prevención</a>
+          <a href="ppff.html">Preguntas frecuentes</a>
+          <a href="index.html/#actividades">Actividades</a>
+          <a href="personas-mayores.html">Personas mayores</a>
+        </nav>
+      </aside>
+    </header>
+
+    <section id="dashboard2">
+      <div class="titulo">
+        <p class="titulo-dash">Coronavirus en San Martín</p>
+        <p class="bajada-dash" id="db-fecha">Datos al:</p>
+      </div>
+      <div class="datos">
+        <span class="dash-dato1 dato">
+          <h2 class="dash-num db-afectados"></h2>
+          <p class="ref-num black">Total de afectados</p>
+        </span>
+        <span class="dash-dato2 dato">
+          <h2 class="dash-num db-activos"></h2>
+          <p class="ref-num black">Infectados activos</p>
+        </span>
+        <span class="dash-dato3 dato">
+          <h2 class="dash-num db-recuperados"></h2>
+          <p class="ref-num black">Recuperados</p>
+        </span>
+        <span class="dash-dato4 dato">
+          <h2 class="dash-num db-fallecidos"></h2>
+          <p class="ref-num black">Fallecidos</p>
+        </span>
+      </div>
+    </section>
+
+    <section class="preguntas-frecuentes">
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h1 class="titulo-ppff">Preguntas frecuentes</h1>
+          <br>
+          <!-- <p class="contenido-noticias-abuelos">Información sobre las consultas realizadas con mayor frecuencia para brindar una rápida respuesta a tus dudas ante la situación del Coronavirus.</p> -->
+          <p class="contenido-noticias-abuelos"><span class="black">Información actualizada sobre Covid- 19</span> <br> Fuente: Ministerio de Salud de la Nación</p>
+        </span>
+
+        <nav class="flexbox not-mobile flexblox-estado items">
+          <a href="estado-situacion.html" class="flexbox">
+            <img src="assets/icon_iso3.svg" class="icon" style="--height: 1.85em;">
+            <p class="note">Coronavirus <br>en San Martín</p>
+          </a class="flexbox">
+          <a href="prevencion.html" class="flexbox">
+            <img src="assets/icon_iso3.svg" class="icon" style="--height: 1.85em;">
+            <p class="note">Prevención <br>Coronavirus</p>
+          </a>
+        </nav>
+      </article>
+    </section>
+
+    <section class="prevencion" id="covid-sm" style="background-color: var(--msm-gris2);">
+      <article class="articulo1-acciones">
+        <h2 class="titulo-prevencion black">Síntomas</h2>
+      </article>
+    </section>
+
+    <section id="grid-sintomas" style="background-color: var(--msm-gris2);">
+      <div class="flexcol centered">
+        <img src="src/sintomas/tos.png" class="ilustra">
+        <p class="texto-ilustra-prev"><span class="black">Tos seca / Mucosidad</span><br><span style="font-size: .8em">y fiebre (+37,5°)</span></p>
+      </div>
+      <div class="flexcol centered">
+        <img src="src/sintomas/garganta.png" class="ilustra">
+        <p class="texto-ilustra-prev"><span class="black">Dolor de garganta</span><br><span style="font-size: .8em">y fiebre (+37,5°)</span></p>
+      </div>
+      <div class="flexcol centered">
+        <img src="src/sintomas/pulmones.png" class="ilustra">
+        <p class="texto-ilustra-prev"><span class="black">Dificultad para respirar</span><br><span style="font-size: .8em">y fiebre (+37,5°)</span></p>
+      </div>
+      <div class="flexcol centered">
+        <img src="src/sintomas/gusto-olfato.png" class="ilustra">
+        <p class="texto-ilustra-prev"><span class="black">Falta de olfato y/o gusto</span><br><span style="font-size: .8em">y fiebre (+37,5°)</span></p>
+      </div>
+    </section>
+
+    <section id="grid-tel-utiles">
+      <div class="">
+        <h2 class="titulo-prevencion black">Teléfonos útiles</h2>
+        <p class="contenido-noticias-abuelos black">Ante la presencia de síntomas, llamá al <span class="black">148</span> o al <span class="black">107</span>, las 24 h</p>
+        <p class="contenido-noticias-abuelos">4830 0575/ 0811/ 0823/ 0719, <br>lu a vie, de 8 a 17 h</p>
+      </div>
+      <div class="">
+        <h4 class="black">Ministerio de Salud de la Nación</h4>
+        <p class="numeros-utiles">0800 222 1002, las 24 h</p>
+        <h4 class="black">Hospital Municipal Diego Thompson</h4>
+        <p class="numeros-utiles">4830 0687</p>
+        <h4 class="black">Atención ambulatoria, turnos <br> y otras consultas en el Thompson</h4>
+        <p class="numeros-utiles">Lu a vie, de 8 a 16 h: 15 2314 3528; <br> 15 5312 3416; 15 3566 2898; y 15 6514 4918.</p>
+      </div>
+      <div class="">
+        <h4 class="black">Líneas exclusivas por Coronavirus</h4>
+        <p class="numeros-utiles">Lu a vie, de 8 a 17 h: 4830 0575/ 0384/ 0595/ 0812/ 0623</p>
+        <h4 class="black">Centro de Atención Vecinal</h4>
+        <p class="numeros-utiles">147 Lu a vie de 8 a 20 y sáb de 8 a 13 h</p>
+        <h4 class="black">Denuncias por incumplimiento de la cuarentena</h4>
+        <p class="numeros-utiles">134, las 24 h</p>
+      </div>
+    </section>
+
+    <!-- <section id="grid-tel-utiles">
+      <div class="">
+        <h2 class="titulo-prevencion black">Líneas exclusivas por Coronavirus</h2>
+      </div>
+      <div class="">
+        <h4 class="black">Ministerio de Salud de la Nación</h4>
+        <p class="numeros-utiles">0800 222 1002, las 24 h</p>
+        <h4 class="black">Hospital Municipal Diego Thompson</h4>
+        <p class="numeros-utiles">4830 0687</p>
+        <h4 class="black">Atención ambulatoria, turnos <br> y otras consultas en el Thompson</h4>
+        <p class="numeros-utiles">Lu a vie, de 8 a 16 h: 15 2314 3528; <br> 15 5312 3416; 15 3566 2898; y 15 6514 4918.</p>
+      </div>
+      <div class="">
+        <h4 class="black">Líneas exclusivas por Coronavirus</h4>
+        <p class="numeros-utiles">Lu a vie, de 8 a 17 h: 4830 0575/ 0811/ 0823/ 0719/ 0384/ 0595/ 0812/ 0623</p>
+        <h4 class="black">Centro de Atención Vecinal</h4>
+        <p class="numeros-utiles">147 Lu a vie de 8 a 20 y sáb de 8 a 13 h</p>
+        <h4 class="black">Denuncias por incumplimiento de la cuarentena</h4>
+        <p class="numeros-utiles">134, las 24 h</p>
+      </div>
+    </section> -->
+
+    <button class="flexbox stretched" drop-down="_acerca" chain="ppff">
+      <p class="marginless">Información general</p>
+      <img class="arrow-button" src="assets/icon_arrow-white-der.svg">
+    </button>
+    <section id="_acerca" class="v-paddingless">
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué es un coronavirus? ¿Qué es el SARS-CoV2? ¿Qué es COVID-19?</h3>
+          <p class="contenido-noticias-abuelos">Los coronavirus son una familia de virus que pueden causar enfermedades en animales y en humanos. En los seres humanos pueden causar infecciones respiratorias que van desde un resfrío común hasta enfermedades más graves, como el síndrome respiratorio de Medio Oriente (MERS) y el síndrome respiratorio agudo severo (SRAS-SARS).<br><br>
+          Actualmente nos encontramos ante una pandemia (epidemia que se propaga a escala mundial) por un nuevo coronavirus, SARS-CoV-2, que fue descubierto recientemente y causa la enfermedad por coronavirus COVID-19.</p>
+        </span>
+      </article>
+
+      <!-- <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cuáles son los síntomas de la COVID-19?</h3>
+          <p class="contenido-noticias-abuelos">Las personas con COVID-19 suelen tener síntomas similares a una gripe, como fiebre, cansancio y tos seca.<br><br>
+          Algunas personas pueden presentar dolores musculares, congestión nasal, dolor de garganta o diarrea.<br><br>
+          La mayoría de las personas (alrededor del 80%) se recupera de la enfermedad en unos 7 días sin necesidad de realizar ningún tratamiento especial. Alrededor de 1 cada 6 personas que desarrollan COVID-19 puede evolucionar a una enfermedad grave y tener dificultad para respirar, que puede requerir internación.<br><br>
+          Las personas mayores y las que padecen afecciones médicas subyacentes, como enfermedad cardiovascular, enfermedad respiratoria o tienen las defensas debilitadas, presentan más riesgo de desarrollar una enfermedad grave. Las personas que tengan fiebre, tos y dificultad para respirar deben buscar atención médica en forma inmediata.</p>
+        </span>
+        <span class="ilus-ppff">
+          <div class="ilustracion-ppff">
+            <img src="assets/ilus_fiebre-tos.svg">
+            <p class="black bajada sintomas">Fiebre y tos</p>
+          </div>
+          <div class="ilustracion-ppff">
+            <img src="assets/ilus_fiebre-garganta.svg">
+            <p class="black bajada sintomas">Fiebre y dolor</p>
+          </div>
+          <div class="ilustracion-ppff">
+            <img src="assets/ilus_fiebre-pulmones.svg">
+            <p class="black bajada sintomas">Fiebre y dificultad <br> para respirar</p>
+          </div>
+        </span>
+      </article> -->
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cuál es la diferencia entre COVID-19 y la gripe?</h3>
+          <p class="contenido-noticias-abuelos">Los síntomas de COVID-19 y la gripe son generalmente muy similares. Ambos causan fiebre y síntomas respiratorios, que pueden variar de leves a graves y a veces ser fatales.<br><br>Ambos virus también se transmiten de la misma manera, al toser o estornudar, o por contacto con manos, superficies u objetos contaminados con el virus.<br><br>Lavarte las manos, cubrirte con un pañuelo descartable o con el pliegue del codo al toser o estornudar y una buena limpieza del hogar son acciones importantes para prevenir ambas infecciones.<br><br>El riesgo de enfermedad grave parece ser mayor para COVID-19 que para gripe. Si bien la mayoría de las personas con COVID-19 tiene síntomas leves, aproximadamente 15% tienen infecciones graves y 5% requieren cuidados intensivos.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cómo se transmite el virus?</h3>
+          <p class="contenido-noticias-abuelos">Se transmite de una persona a otra a través de las gotas procedentes de la nariz o la boca que salen despedidas cuando la persona infectada tose, estornuda o habla, por contacto con manos, superficies u objetos contaminados. Por eso es importante mantener distanciamiento social y tomar las precauciones de contacto que se describen más abajo.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué puedo hacer para evitar contraer COVID-19?</h3>
+          <p class="contenido-noticias-abuelos">Para disminuir el riesgo de contraer COVID-19 sugerimos:<br><br>Distanciamiento social: evitá reuniones, eventos y salir de casa en general, excepto para actividades absolutamente esenciales.<br><br>Mantené la higiene de las manos limpiándolas regularmente con agua y jabón o con alcohol en gel.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">Limpiá tus manos:</h3>
+          <p class="contenido-noticias-abuelos">Antes de entrar y al salir de un área utilizada por otras personas.<br><br>Después de usar el baño.<br><br>Después de toser o estornudar.<br><br>Antes de preparar comida o comer.<br><br>Al toser y estornudar, cubrite con pañuelos descartables (desechalos después de usarlos y lavate las manos inmediatamente después) o hacelo en el pliegue del codo si no tenés pañuelos descartables.<br><br>Limpiá periódicamente las superficies y los objetos que usás con frecuencia.<br><br>Ventilá los ambientes.
+</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cuándo debo lavarme las manos?</h3>
+          <p class="contenido-noticias-abuelos">El lavado de manos es la forma más sencilla de prevenir muchas enfermedades, no solo la del nuevo coronavirus COVID-19. Es importante que lo hagas: <br><br> Antes de tocarte la cara.<br><br>Después de toser o estornudar.<br><br>Después de ir al baño.<br><br>Antes y después de cambiar pañales.<br><br>Antes de preparar y comer alimentos.<br><br>Antes y después de visitar o atender a alguien que está enfermo.<br><br>Después de tirar la basura.<br><br>Después de tocar superficies que se usan con frecuencia como las manijas de las puertas, las barandas, los pasamanos, etc.<br><br>Después de estar en lugares públicos o de tocar animales.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Por qué debo lavarme frecuentemente las manos o usar alcohol en gel para evitar la propagación de COVID-19?</h3>
+          <p class="contenido-noticias-abuelos">Lavarte las manos con agua y jabón o usar desinfectante a base de alcohol elimina las partículas virales que pueda haber en tus manos.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Por qué tengo que estornudar usando el pliegue del codo y no la mano?</h3>
+          <p class="contenido-noticias-abuelos">Así se evita la propagación del virus. Si se hace con las manos contribuimos a que el virus se traslade a todo aquello que tocamos.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Debo evitar dar la mano a las personas por el nuevo coronavirus?</h3>
+          <p class="contenido-noticias-abuelos">Sí. Los virus respiratorios pueden transmitirse al darse la mano y luego ‎tocarse los ojos, la nariz y la boca. Por este tiempo, es mejor saludar con un gesto o una inclinación de la cabeza antes que con la mano.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Por qué debo mantener una distancia de al menos 1 metro con otra persona?</h3>
+          <p class="contenido-noticias-abuelos">Cuando alguien tose o estornuda, despide por la nariz o por la boca unas gotitas de líquido que pueden contener el virus. Si esa persona tiene la enfermedad y está demasiado cerca de otra, esta puede respirar las gotitas y con ellas el virus de la COVID-19.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Por qué debo evitar tocarme los ojos, la nariz y la boca?</h3>
+          <p class="contenido-noticias-abuelos">Las manos tocan muchas superficies y pueden contener el virus en su superficie. Una vez contaminadas, pueden transferir el virus a los ojos, la nariz o la boca. Si el virus ingresa puede causar la enfermedad.<br><br>Por este motivo es importante lavar las manos frecuentemente o utilizar alcohol en gel.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué significa ser contacto de alguien con COVID-19?</h3>
+          <p class="contenido-noticias-abuelos">La siguiente definición es dinámica y puede variar en el transcurso de la pandemia.<br><br>Al día de la fecha se considera “contacto” a toda persona que haya estado cerca (cara a cara durante al menos 15 minutos o en el mismo espacio cerrado durante al menos 2 horas) de una persona que tiene diagnóstico confirmado de COVID-19.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué debo hacer si entro en contacto estrecho con una persona con COVID-19?</h3>
+          <p class="contenido-noticias-abuelos">Si sos identificado como contacto de una persona con infección confirmada por COVID-19, debés reforzar tu aislamiento durante 14 días contados desde el último contacto con el caso confirmado de COVID-19, controlar tu salud e informar cualquier síntoma. Si vivís con otras personas, a su vez, debés cumplir estrictamente el aislamiento dentro de tu domicilio y no tener contacto estrecho con ningún conviviente, sobre todo si la persona es mayor de 60 años o si forma parte de un grupo de riesgo.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué debo hacer si entro en contacto estrecho con una persona que fue identificada como contacto de otra persona con infección confirmada?</h3>
+          <p class="contenido-noticias-abuelos">Los contactos de contactos estrechos no conllevan un riesgo. Si estuviste en contacto con una persona identificada como contacto estrecho de otra persona con infección confirmada por la COVID-19, debés mantener el mismo aislamiento social preventivo que sigue toda la sociedad y, seguir con las medidas generales para prevenir la enfermedad por el nuevo coronavirus COVID-19. Por otro lado, es recomendable que prestes especial atención a los signos de alerta o a la aparición de síntomas por más leves que sean.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué significa distanciamiento social?</h3>
+          <p class="contenido-noticias-abuelos">Distanciamiento social significa:<br><br>que dejes una distancia de al menos 1 metro entre vos y otros;<br><br>que evites las multitudes y las reuniones masivas en las que sea difícil mantener la distancia adecuada de los demás;<br><br>que evites pequeñas reuniones en espacios cerrados, como celebraciones familiares;<br><br>que evites dar la mano, abrazar o besar a otras personas;<br><br>que no compartas el mate, vajilla, y utensilios;<br><br>que evites visitar a personas vulnerables, como las que se encuentran en centros de atención para personas mayores u hospitales, bebés o personas con sistemas inmunes comprometidos debido a enfermedades o tratamiento médico.<br><br>Podés viajar al trabajo en transporte público si no tenés otra forma dehacerlo. Por favor, tratá de mantener la distancia social con otros/as pasajeros/as.<br><br>El distanciamiento social es una medida efectiva, pero se reconoce que no se puede practicar en todas las situaciones; su objetivo es reducir el potencial de transmisión. Tené en cuenta que, en este sentido, en algunas jurisdicciones es obligatorio el uso de tapabocas, máscaras o barbijos caseros en medios de transporte o comercios como apoyo a las medidas de distanciamiento social. Es importante que todos hagamos nuestra parte para limitar la propagación de la COVID-19 cumpliendo con el aislamiento social, preventivo y obligatorio; esto ayudará a proteger a las personas vulnerables en nuestra comunidad y reducirá la carga sobre los hospitales.
+          </p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Por qué es importante el distanciamiento social?</h3>
+          <p class="contenido-noticias-abuelos">El distanciamiento social es la mejor medida que podemos tomar para disminuir la circulación del coronavirus SARS-CoV2 causante de la enfermedad COVID-19.<br><br>Debés tener en cuenta que no es siempre posible lograr un distanciamiento social absoluto. De todas formas, te recomendamos fuertemente intentar realizarlo con la finalidad de protegerte y proteger a los demás.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Sirve usar barbijo casero?</h3>
+          <p class="contenido-noticias-abuelos">Quedarnos en casa, mantener la distancia social y lavarnos las manos varias veces por día son las mejores medidas conocidas hasta ahora para prevenir el coronavirus. Sin embargo, el uso de barbijos caseros también puede contribuir a disminuir el riesgo de transmisión cuando no se pueden asegurar esas medidas. Para más información, consultá la sección sobre Uso de barbijo casero.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Existe una cura o vacuna?</h3>
+          <p class="contenido-noticias-abuelos">Hasta el momento no hay vacunas que protejan contra COVID-19. Tampoco existe un tratamiento específico.<br><br>El diagnóstico temprano y la atención de apoyo general son importantes. La mayoría de las veces, los síntomas se resuelven por sí solos. Las personas que tienen enfermedades graves con complicaciones pueden necesitar ser atendidas en el hospital.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">La vacuna contra la gripe, ¿es útil contra el coronavirus?</h3>
+          <p class="contenido-noticias-abuelos">No, la vacuna antigripal solo previene la influenza. Todavía no existe una vacuna contra el coronavirus COVID-19, por eso es tan importante la prevención.<br><br>De todos modos, es importantísimo que los grupos de riesgo ante la gripe (adultos mayores, personas con problemas respiratorios, personal de salud) se apliquen la vacuna contra la influenza como todos los años.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Se puede tratar la COVID-19?</h3>
+          <p class="contenido-noticias-abuelos">Las infecciones causadas por nuevos coronavirus no tienen tratamiento específico, aunque sí se pueden tratar los síntomas que provoca. El tratamiento de los síntomas va a depender del estado clínico de cada paciente.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Hay personas que presentan más riesgos si se contagian?</h3>
+          <p class="contenido-noticias-abuelos">Sí. Las personas mayores de 60, las que tienen enfermedades respiratorias o cardiovasculares y las que tienen afecciones como diabetes presentan mayores riesgos en caso de contagio.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cuándo se considera un caso como sospechoso?</h3>
+          <p class="contenido-noticias-abuelos">La definición es dinámica y va variando con el transcurso del tiempo.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Se realiza algún análisis de sangre u otras muestras biológicas para saber si una persona ha contraído el nuevo coronavirus?</h3>
+          <p class="contenido-noticias-abuelos">No. El diagnóstico debe realizarse en los laboratorios de referencia, en muestras clínicas respiratorias. Las recomendaciones del Ministerio de Salud de la Nación son las que establecen a cuáles personas hay que realizarles los estudios correspondientes.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cuánto dura el periodo de incubación de la COVID-19?</h3>
+          <p class="contenido-noticias-abuelos">El “período de incubación” es el tiempo que transcurre entre la infección por el virus y la aparición de los síntomas de la enfermedad, que según los datos disponibles oscila entre 1 y 14 días, y en promedio alrededor de 5 días. A modo de comparación, el período de incubación de la gripe es 2 días en promedio y oscila entre 1 y 7. Por esta razón se les pide a las personas que podrían haber estado en contacto con un caso confirmado que se aíslen por 14 días.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">Mi animal de compañía, ¿me puede contagiar la COVID-19?</h3>
+          <p class="contenido-noticias-abuelos">Aunque hubo un caso de un perro infectado en Hong Kong, hasta la fecha no hay pruebas de que un perro, un gato o cualquier mascota pueda transmitir la COVID-19 ni de que esos animales puedan enfermarse de un ser humano. Igualmente, siguen las investigaciones y el conocimiento sobre esta nueva enfermedad.<br><br>Además, es importante tener algunos cuidados al sacar a las mascotas para que hagan sus necesidades durante el aislamiento social preventivo y obligatorio.</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué hago si alguien no cumple el aislamiento social, preventivo y obligatorio?</h3>
+          <p class="contenido-noticias-abuelos">Podés denunciar al 134. En caso de que no puedas comunicarte a ese teléfono, sugerimos mandar un correo electrónico a denuncias@minseg.gob.ar o llenar el formulario de denuncias anónimas entrando a https://denunciasweb.minseg.gob.ar/</p>
+        </span>
+      </article>
+
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Dónde puedo consultar información actualizada y veraz sobre la COVID-19?</h3>
+          <p class="contenido-noticias-abuelos">En la era de las comunicaciones, la desinformación es moneda corriente y peligrosa. Eventos como la pandemia por la COVID-19 nos pone en la necesidad de obtener información al instante, por tal motivo es frecuente la difusión de contenidos falsos o erróneos.<br><br>Es nuestra responsabilidad evitar la difusión de información falsa o maliciosa. Es clave que no actuemos como amplificadores de noticias falsas, que en general buscan un impacto emocional rápido para su viralización.<br><br>Para evitar confusiones, debés buscar información en sitios cuentas de redes sociales que permitan comprobar su veracidad, como los del Ministerio de Salud de la República Argentina, de la Organización Mundial de la Salud o de la Organización Panamericana de la Salud.<br><br>Desconfiá de —y no difundas— rumores, mensajes y audios de Whatsapp provenientes de supuestas autoridades en la materia que difundan información que no pueda ser verificada.
+</p>
+        </span>
+      </article>
+    </section>
+
+    <button class="flexbox stretched" drop-down="_limpieza" chain="ppff">
+      <p class="marginless">Recomendaciones para la limpieza del hogar y el cuidado personal</p>
+      <img class="arrow-button" src="assets/icon_arrow-white-der.svg">
+    </button>
+    <section id="_limpieza" class="v-paddingless">
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cuánto tiempo sobrevive el virus en una superficie?</h3>
+          <p class="contenido-noticias-abuelos">Los estudios realizados (incluida la información preliminar disponible sobre el virus de la COVID-19) indican que los coronavirus pueden subsistir en una superficie desde unas pocas horas hasta varios días. <br><br> El tiempo puede variar en función de las condiciones (por ejemplo, el tipo de superficie, la temperatura o la humedad del ambiente). <br><br> Limpiar con un desinfectante común, lavarte las manos, utilizar alcohol gel y evitar tocarte los ojos, la boca o la nariz disminuye el riesgo de transmisión.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué productos de limpieza elegir y qué cuidados hay que tener?</h3>
+          <p class="contenido-noticias-abuelos">Para la limpieza es recomendable usar productos tradicionales, simples y baratos como el detergente. Agua y detergente son adecuados siempre que se frote bien y se elimine todo material o suciedad visible.<br><br>Antes de usar un producto de limpieza, leer bien la etiqueta y seguir las normas de uso y protección que se indican en el envase, controlando la fecha de vencimiento.<br><br>Y recordemos que las mujeres embarazadas o las personas con afecciones respiratorias como asma u otras, son especialmente delicadas frente a los productos químicos de limpieza.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué debo tener en cuenta al elegir y utilizar un producto de limpieza?</h3>
+          <p class="contenido-noticias-abuelos">Sea el producto que sea, siempre se debe chequear su fecha de vencimiento antes de utilizarlo. Usarlo siguiendo las instrucciones del fabricante ya que su uso indebido puede ser peligroso, o disminuir o anular su efectividad. No se deben diluir o mezclar productos entre sí a menos que esté indicado en el envase.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué porcentaje de lavandina y agua debo usar para desinfectar mi casa?</h3>
+          <p class="contenido-noticias-abuelos">Después de limpiar pisos y superficies con agua y detergente, o el producto que utilices habitualmente, se recomienda desinfectar con lavandina. Se debe colocar 10 ml de lavandina (2 cucharadas soperas) por cada litro de agua o 100ml de lavandina por cada 10 litros de agua (un pocillo de café en un balde con agua aproximadamente). Debe ser lavandina de uso doméstico (con concentración de 55 gr/litro). De utilizar una lavandina comercial con concentración de 25 g/l, se debe colocar el doble volumen de lavandina para lograr una correcta desinfección. Debe prepararse el mismo día que se va a usar si no pierde poder d esinfectante.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cómo debo limpiar las superficies y pisos para evitar el COVID-19?</h3>
+          <p class="contenido-noticias-abuelos">La limpieza de las superficies y pisos se puede realizar correctamente siguiendo estos tres pasos:<br>
+1. Lavar con una solución de agua y detergente.<br>
+2. Enjuagar con agua limpia.<br>
+3. Desinfectar con una solución de 10 ml (2 cucharadas soperas) de lavandina (con concentración de 55 gr/litro) en 1 litro de agua. De utilizar una lavandina comercial con concentración de 25 g/l, se debe colocar el doble volumen de lavandina para lograr una correcta desinfección.
+</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Puedo mezclar diferentes productos de limpieza como detergente y lavandina?</h3>
+          <p class="contenido-noticias-abuelos">Nunca se debe mezclar detergente con lavandina. Esta combinación puede desprender vapores venenosos que afectan la salud. Si se limpia con detergente, se debe enjuagar con agua limpia antes de desinfectar con lavandina.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué cuidados personales debo tener al hacer la limpieza del hogar?</h3>
+          <p class="contenido-noticias-abuelos">Tratá de usar los guantes de goma de uso habitual para evitar el contacto de las manos con los productos de limpieza. Como cuidado general, hay que evitar las salpicaduras en el rostro y una vez finalizada la limpieza, lavate las manos con agua y jabón.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Sirve la lavandina para desinfectar las manos si no tengo jabón?</h3>
+          <p class="contenido-noticias-abuelos">Sí, se puede usar una solución de cloro o lavandina de baja concentración (0,05%). Se debe usar únicamente en caso de no tener jabón o desinfectante ‎de manos a base de alcohol. No debe emplearse seguido porque puede irritar las manos y afectar la salud.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Es lo mismo usar jabón que detergente para lavarme las manos?</h3>
+          <p class="contenido-noticias-abuelos">Si bien el detergente puede limpiar las manos, sus componentes lo hacen muy fuerte para la piel, por lo que es conveniente usar el jabón para manos común.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Todos los jabones sirven?</h3>
+          <p class="contenido-noticias-abuelos">Sí, todos los jabones sirven, incluso el jabón en pan blanco. El virus tiene tres capas, una de las cuales y la principal es grasa. Los jabones eliminan esta grasa y arrasan con las otras capas que lo componen.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">Si tengo un balde con agua con lavandina ¿todos los miembros de la familia podemos lavarnos las manos allí?</h3>
+          <p class="contenido-noticias-abuelos">No. Es importante que nos lavemos siempre con agua limpia y jabón. Si no contamos con agua corriente, podemos usar una botella de plástico, llenarla con agua potable o potabilizada y aflojar la tapa un poco para que salga un pequeño chorrito de agua cuando la botella esté boca abajo. Otra persona tiene que sostener la botella mientras usted se lava las manos con jabón debajo del agua. (El agua usada se puede recolectar en un balde y usarse para el baño, por ejemplo.)</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cómo puedo hacer potable el agua?</h3>
+          <p class="contenido-noticias-abuelos">Además del agua potable suministrada por la red (agua corriente), podés convertir en agua segura aquella que proviene de otras fuentes (pozo, aljibe, cisterna, etc.).<br><br>En ese caso, agregale 2 gotas de lavandina (con concentración de 55 gr/litro), por litro de agua (y dejala reposar por lo menos 30 minutos antes de consumirla) o hervila durante tres minutos, ya sea agua para beber, lavarse las manos o los dientes, cocinar o lavar las verduras y frutas. De utilizar una lavandina comercial con concentración de 25 g/l, se debe colocar el doble volumen de lavandina para lograr una correcta desinfección.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cómo debo limpiar frutas y verduras?</h3>
+          <p class="contenido-noticias-abuelos">Si se van a consumir frutas y verduras crudas, lavalas con agua para eliminar tierra e impurezas. Luego, las podés desinfectar sumergiéndolas en agua con 1,5ml (media cuchara de té aproximadamente) de lavandina por litro de agua (dejando actuar 20 minutos). Debe ser lavandina de uso doméstico (con concentración de 55 gr/litro). Volvé a enjuagar bien con abundante agua antes de consumir.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cómo desinfectar objetos de uso diario (como celulares, llaves, picaportes, etc.)?</h3>
+          <p class="contenido-noticias-abuelos">Para la limpieza del celular se puede utilizar un paño o tela y alcohol. Los estuches de celulares y otros objetos de plástico se pueden lavar con agua y jabón o detergente. Las manijas, picaportes, llaves y elementos de metal se pueden limpiar con un trapo con lavandina diluida (2 cucharas soperas en 1 litro de agua si es lavandina con concentración de 55gr/ litro, de utilizar una lavandina comercial con concentración de 25 g/l, se debe colocar el doble volumen de lavandina). Se recomienda limpiarlos diariamente.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Cómo tengo que lavar las sábanas y toallas?</h3>
+          <p class="contenido-noticias-abuelos">Lavá la ropa de cama y toallas con jabones o detergentes habituales y luego secalas idealmente con luz solar antes de volver a usarlas.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">Dentro de mi casa ¿debemos mantener la distancia social?</h3>
+          <p class="contenido-noticias-abuelos">En tu casa, tratá de evitar lo más posible el contacto directo con las otras personas: como abrazar, dar la mano, besar, etc. Si hay niños y niñas, se pueden crear junto a ellos otras formas de expresar cariño y cercanía a través de juegos, etc.<br><br>También recordá no compartir el mate, los cubiertos, los platos y vasos, entre otros.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Qué debo hacer si recibo compras que hice por teléfono o internet?</h3>
+          <p class="contenido-noticias-abuelos">En caso de recibir paquetes que hayan sido manipulados, transportados y expuestos a diferentes condiciones y por diferentes personas, te sugerimos realizar el procedimiento de desinfección recomendado.</p>
+        </span>
+      </article>
+    </section>
+
+    <button class="flexbox stretched" drop-down="_viajes" chain="ppff">
+      <p class="marginless">Información sobre viajes</p>
+      <img class="arrow-button" src="assets/icon_arrow-white-der.svg">
+    </button>
+    <section id="_viajes" class="v-paddingless">
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">¿Puedo hacer un viaje?</h3>
+          <p class="contenido-noticias-abuelos">Actualmente, según las normativas del aislamiento social preventivo y obligatorio, no se pueden realizar viajes.</p>
+        </span>
+      </article>
+      <article class="ppff-grid">
+        <span class="preg-frec-items">
+          <h3 class="titulo-noticias-ppff black">Soy argentino y estoy de viaje en un país afectado por el coronavirus. ¿Voy a poder regresar?</h3>
+          <p class="contenido-noticias-abuelos">En la página web del <a href="https://www.cancilleria.gob.ar/es/coronavirus">Ministerio de Relaciones Exteriores, Comercio Internacional y Culto</a> hay información para los ciudadanos argentinos que estén experimentando dificultades para el regreso al país con motivo de la suspensión de vuelos por la pandemia de coronavirus.</p>
+        </span>
+      </article>
+    </section>
+
+    <section>
+      <article class="ppff-grid">
+        <div class="botones-ppff">
+          <a href="estado-situacion.html" class="button b-magenta boton-ppff">Estado de Situación
+          <img class="arrow-button" src="assets/icon_arrow-white-der.svg" alt="">
+          </a>
+          <a href="prevencion.html" class="button b-magenta boton-ppff">Prevención
+          <img class="arrow-button" src="assets/icon_arrow-white-der.svg" alt="">
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <nav class="flexbox stretched foot seminote">
+      <!-- Desktop -->
+      <a href="http://www.sanmartin.gov.ar/" class="black t-celeste not-mobile">MUNICIPIO</a>
+      <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/" class="black t-celeste not-mobile">GUÍA DE TRÁMITES</a>
+      <a href="http://cav.sanmartin.gov.ar/QyR/main.php" class="black t-celeste not-mobile">RECLAMOS</a>
+      <a href="index.html#servicios" class="black t-celeste not-mobile">SERVICIOS</a>
+      <a href="estado-situacion.html" class="black t-magenta not-mobile">CORONAVIRUS SM</a>
+      <a href="ppff.html" class="black t-magenta not-mobile">PREGUNTAS FRECUENTES</a>
+      <a href="index.html#actividades" class="black t-magenta not-mobile">ACTIVIDADES</a>
+      <!-- mobile -->
+      <a href="http://www.sanmartin.gov.ar/" class="only-mobile" target="_blank">
+        <img src="assets/msm.svg" style="height:1.5em;">
+      </a>
+      <nav id="social-mobile" class="flexbox only-mobile">
+        <a href="https://www.instagram.com/sanmartingob/" target="_blank"><img src="assets/icon_ig-blanco.svg" class="icon"></a>
+        <a href="https://twitter.com/sanmartingob" target="_blank"><img src="assets/icon_twitter-blanco.svg" class="icon"></a>
+        <a href="https://www.facebook.com/sanmartingob?_rdr" target="_blank"><img src="assets/icon_fb-blanco.svg" class="icon"></a>
+        <a href="https://www.youtube.com/channel/UCEAJLHb4SDDZbEeRJjtLXJA" target="_blank"><img src="assets/icon_youtube-blanco.svg" class="icon"></a>
+      </nav>
+    </nav>
+    <footer class="stretched">
+      <img src="assets/msm-azul.svg" class="not-mobile">
+      <p class="note">
+        Municipalidad de San Martín<span class="not-mobile"> · </span><br class="only-mobile">Belgrano 3747 · <br class="only-mobile">Buenos Aires<span class="not-mobile"> · </span>Argentina<span class="not-mobile"> · </span><br class="only-mobile">
+        Tel. 147 <br> <span class="not-mobile"></span><br class="only-mobile"><br class="only-mobile">Copyright (c) 2020 <span class="not-mobile"> · </span><br class="only-mobile">Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>

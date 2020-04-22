@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coronavirus - Municipalidad de San Martín</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/secciones.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/secciones_responsive.css">
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/dashboard_db.js"></script>
+    <script type="text/javascript" src="js/og_framework.js" defer="defer"></script>
+    <script type="text/javascript" src="js/main.js" defer="defer"></script>
+  </head>
+  <body>
+
+    <header id="msm">
+      <a id="sm-encasa" class="not-mobile float-left">
+        <img src="assets/isologo_smencasa.svg">
+      </a>
+      <a href="index.html" id="logo-sm">
+        <img src="assets/logo.svg" alt="Municipalidad de San Martín">
+      </a>
+      <div id="social" class="flexbox float-right not-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank"><img src="assets/icon_lupa.svg" class="icon"></a>
+        <a href="https://www.instagram.com/sanmartingob/" target="_blank"><img src="assets/icon_ig.svg" class="icon"></a>
+        <a href="https://twitter.com/sanmartingob" target="_blank"><img src="assets/icon_twitter.svg" class="icon"></a>
+        <a href="https://www.facebook.com/sanmartingob?_rdr" target="_blank"><img src="assets/icon_fb.svg" class="icon"></a>
+        <a href="https://www.youtube.com/channel/UCEAJLHb4SDDZbEeRJjtLXJA" target="_blank"><img src="assets/icon_youtube.svg" class="icon"></a>
+      </div>
+      <!-- Mobile -->
+      <div id="hamburguer" class="flexbox float-left only-mobile">
+        <img src="assets/icon_burger.svg" class="icon">
+      </div>
+      <div id="lupa" class="flexbox float-right only-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank">
+          <img src="assets/icon_lupa-black.svg" class="icon">
+        </a>
+      </div>
+
+      <aside id="mobile-menu" class="only-mobile">
+        <nav class="flexcol flex-start">
+          <a href="http://www.sanmartin.gov.ar/"><img src="assets/msm-azul.svg" class="icon"></a>
+          <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/">Guía de trámites</a>
+          <a href="http://cav.sanmartin.gov.ar/QyR/main.php">Reclamos</a>
+          <a href="estado-situacion.html">Coronavirus</a>
+          <a href="prevencion.html">Prevención</a>
+          <a href="ppff.html">Preguntas frecuentes</a>
+          <a href="index.html/#actividades">Actividades</a>
+          <a href="personas-mayores.html">Personas mayores</a>
+        </nav>
+      </aside>
+    </header>
+
+    <section id="dashboard2">
+      <div class="titulo">
+        <p class="titulo-dash">Coronavirus en San Martín</p>
+        <p class="bajada-dash" id="db-fecha">Datos al:</p>
+      </div>
+      <div class="datos">
+        <span class="dash-dato1 dato">
+          <h2 class="dash-num db-afectados"></h2>
+          <p class="ref-num black">Total de afectados</p>
+        </span>
+        <span class="dash-dato2 dato">
+          <h2 class="dash-num db-activos"></h2>
+          <p class="ref-num black">Infectados activos</p>
+        </span>
+        <span class="dash-dato3 dato">
+          <h2 class="dash-num db-recuperados"></h2>
+          <p class="ref-num black">Recuperados</p>
+        </span>
+        <span class="dash-dato4 dato">
+          <h2 class="dash-num db-fallecidos"></h2>
+          <p class="ref-num black">Fallecidos</p>
+        </span>
+      </div>
+    </section>
+
+    <section class="estado" id="covid-sm">
+      <article class="">
+        <p class="copete">ESTADO PRESENTE</p>
+        <h1 class="black">Acciones y servicios <br> para cuidar a la comunidad</h1>
+        <p class="interlined cuerpo-estado">Desde el inicio de la pandemia, en San Martín implementamos diferentes medidas y llevamos a cabo acciones para evitar la circulación del virus en los barrios y cuidar a toda la comunidad.</p>
+        <p class="interlined cuerpo-estado">El trabajo que realizamos en conjunto con los Ministerios de Salud de la Nación y la Provincia, nos permite brindar una <span class="black">atención inmediata y completa</span> en los centros de salud ante los casos confirmados y sospechosos de contagio.</p>
+      </article>
+
+      <nav class="flexbox not-mobile flexblox-estado items">
+        <a href="ppff.html" class="flexbox">
+          <img src="assets/icon_iso3.svg" class="icon" style="--height: 1.85em;">
+          <p class="note">Preguntas <br>frecuentes</p>
+        </a class="flexbox">
+        <a href="prevencion.html" class="flexbox">
+          <img src="assets/icon_iso3.svg" class="icon" style="--height: 1.85em;">
+          <p class="note">Prevención <br>Coronavirus</p>
+        </a>
+      </nav>
+
+      <!-- <div id="mapa">
+        <p class="copete">Distribución de los casos</p>
+        <div id="img"></div>
+        <div id="referencias">
+          <span>
+            <div class="ref ref-1"></div>
+            <p class="referencias-mapa">0</p>
+          </span>
+          <span>
+            <div class="ref ref-2"></div>
+            <p class="referencias-mapa">1-50</p>
+          </span>
+          <span>
+            <div class="ref ref-3"></div>
+            <p class="referencias-mapa">51-100</p>
+          </span>
+          <span>
+            <div class="ref ref-4"></div>
+            <p class="referencias-mapa">101-200</p>
+          </span>
+        </div>
+      </div> -->
+
+      <article class="articulo1-acciones">
+        <h3 class="titulo-noticias-abuelos black">Estado de situación</h3>
+        <p class="contenido-noticias-abuelos cna2">Hasta el momento, se confirmaron <span class="black db-activos">43</span><span class="black"> casos positivos</span> de Coronavirus, de los cuales <span class="black db-atencion-publica">28</span> fueron atendidos en centros de salud públicos y <span class="black db-atencion-privada">15</span> en efectores de salud privados. Las personas infectadas tienen entre 3 meses y 81 años.</p>
+        <p class="contenido-noticias-abuelos cna2">Hasta el momento, en la ciudad se confirmaron 53 casos positivos de Coronavirus, de ellos, el 55% están siendo atendidos en centros de salud privados, y el 45% en centros y hospitales públicos. A su vez se encuentran en estudio 95 casos sospechosos, y se descartaron 233, con resultado negativo. Asimismo, informamos el fallecimiento de 3 personas a causa del Covid-19.</p>
+      </article>
+
+      <article class="articulo1-acciones">
+        <h3 class="titulo-noticias-abuelos black">Capacidad del Sistema de Salud</h3>
+        <p class="contenido-noticias-abuelos cna2">El Sistema de Salud en San Martín cuenta con <span class="black">683 camas</span> en instituciones públicas y privadas, <span class="black">91 camas</span> en unidades de terapia intensiva (UTI), y <span class="black">97 respiradores activos</span>.</p>
+        <p class="contenido-noticias-abuelos cna2">Además, para reforzar la capacidad de internación, se instalarán <span class="black">210 camas</span> en centros de aislamiento comunitario (Club San Andrés 150 camas, Club Las Heras 60 camas) y en caso de ser necesario, se <span class="black">sumarán 50 más</span> en el Centro Municipal de Educación Física (CeMEF), ubicado en José León Suárez.</p>
+      </article>
+    </section>
+
+    <section class="noticias">
+      <h1 class="tareas">El Municipio trabaja en todas las áreas para frenar el avance del Covid-19</h1>
+      <div class="grid-tareas">
+        <!-- <article>
+            <p class="copete-noticias">En toda la ciudad</p>
+            <h3 class="titulo-tareas black">Control de precios y abastecimiento </h3>
+            <p class="cuerpo-noticias interlined">El equipo de Defensa al Consumidor recorre a diario diferentes supermercados, perfumerías y farmacias para verificar el abastecimiento de productos de primera necesidad y evitar sobreprecios.</p>
+            <hr>
+        </article>
+        <article>
+            <p class="copete-noticias">Refuerzo alimentario</p>
+            <h3 class="titulo-tareas black">Red de contención social</h3>
+            <p class="cuerpo-noticias interlined">El Municipio incrementó los alimentos e insumos para 125 comedores y merenderos, hogares convivenciales, UDIs, Centros de Cuidado Infantil y Centros Juveniles, que en total suman más de 15 mil personas en situación de vulnerabilidad.</p>
+            <hr>
+        </article>
+        <article>
+            <p class="copete-noticias">Puntos estratégicos</p>
+            <h3 class="titulo-tareas black">Operativos de control vehicular</h3>
+            <p class="cuerpo-noticias interlined">Personal de Seguridad Ciudadana y la Dirección de Tránsito, junto a la Policía de la Provincia de Buenos Aires realizan operativos en calles y avenidas de la ciudad, a fin de asegurar el cumplimiento de la cuarentena.</p>
+            <hr>
+        </article>
+        <article>
+            <p class="copete-noticias">Programa Municipal</p>
+            <h3 class="titulo-tareas black">Asistencia por aislamiento</h3>
+            <p class="cuerpo-noticias interlined">A través de un llamado telefónico se ofrece asistencia a quienes hayan regresado de un viaje en el exterior, y se realiza un seguimiento para detectar situaciones que requieran una atención integral inmediata. </p>
+            <hr>
+        </article> -->
+      </div>
+
+      <article id="ppff-grid">
+        <div class="botones-ppff">
+          <a href="prevencion.html" class="button b-magenta boton-ppff">Prevención
+          <img class="arrow-button" src="assets/icon_arrow-white-der.svg" alt="">
+          </a>
+          <a href="ppff.html" class="button b-magenta boton-ppff">Preguntas Frecuentes
+          <img class="arrow-button" src="assets/icon_arrow-white-der.svg" alt="">
+          </a>
+        </div>
+      </article>
+
+      <!-- <article class="flexbox stretched botonera">
+        <div class="flexbox centered">
+          <a class="button b-magenta">Ver todas las noticias<span style="margin-left: 3em;">></span></a>
+        </div>
+      </article> -->
+    </section>
+
+    <nav class="flexbox stretched foot seminote">
+      <!-- Desktop -->
+      <a href="http://www.sanmartin.gov.ar/" class="black t-celeste not-mobile">MUNICIPIO</a>
+      <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/" class="black t-celeste not-mobile">GUÍA DE TRÁMITES</a>
+      <a href="http://cav.sanmartin.gov.ar/QyR/main.php" class="black t-celeste not-mobile">RECLAMOS</a>
+      <a href="index.html#servicios" class="black t-celeste not-mobile">SERVICIOS</a>
+      <a href="estado-situacion.html" class="black t-magenta not-mobile">CORONAVIRUS SM</a>
+      <a href="ppff.html" class="black t-magenta not-mobile">PREGUNTAS FRECUENTES</a>
+      <a href="index.html#actividades" class="black t-magenta not-mobile">ACTIVIDADES</a>
+      <!-- mobile -->
+      <a href="http://www.sanmartin.gov.ar/" class="only-mobile" target="_blank">
+        <img src="assets/msm.svg" style="height:1.5em;">
+      </a>
+      <nav id="social-mobile" class="flexbox only-mobile">
+        <a href="https://www.instagram.com/sanmartingob/" target="_blank"><img src="assets/icon_ig-blanco.svg" class="icon"></a>
+        <a href="https://twitter.com/sanmartingob" target="_blank"><img src="assets/icon_twitter-blanco.svg" class="icon"></a>
+        <a href="https://www.facebook.com/sanmartingob?_rdr" target="_blank"><img src="assets/icon_fb-blanco.svg" class="icon"></a>
+        <a href="https://www.youtube.com/channel/UCEAJLHb4SDDZbEeRJjtLXJA" target="_blank"><img src="assets/icon_youtube-blanco.svg" class="icon"></a>
+      </nav>
+    </nav>
+    <footer class="stretched">
+      <img src="assets/msm-azul.svg" class="not-mobile">
+      <p class="note">
+        Municipalidad de San Martín<span class="not-mobile"> · </span><br class="only-mobile">Belgrano 3747 · <br class="only-mobile">Buenos Aires<span class="not-mobile"> · </span>Argentina<span class="not-mobile"> · </span><br class="only-mobile">
+        Tel. 147 <br> <span class="not-mobile"></span><br class="only-mobile"><br class="only-mobile">Copyright (c) 2020 <span class="not-mobile"> · </span><br class="only-mobile">Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <script type="text/javascript" src="js/noticias_db.js"></script>
+    <script type="text/javascript">
+      const contenedor = document.querySelector(".grid-tareas");
+
+      printNoticias(contenedor);
+    </script>
+  </body>
+</html>

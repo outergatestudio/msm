@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coronavirus - Municipalidad de San Martín</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/secciones.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/secciones_responsive.css">
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/dashboard_db.js"></script>
+    <script type="text/javascript" src="js/og_framework.js" defer="defer"></script>
+    <script type="text/javascript" src="js/main.js" defer="defer"></script>
+  </head>
+  <body>
+
+    <!-- Inicio -->
+    <header id="dashboard" class="stretched">
+      <!-- Desktop -->
+      <nav class="flexbox not-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank" id="old-home-a">
+          <img src="assets/msm.svg" style="height:100%;">
+        </a>
+        <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/" target="_blank" class="black">Guía de trámites</a>
+        <a href="http://cav.sanmartin.gov.ar/QyR/main.php" class="black">Reclamos</a>
+      </nav>
+      <nav class="flexbox not-mobile">
+        <a href="prevencion.html" class="flexbox">
+          <img src="assets/icon_iso2.svg" class="icon" style="--height: 1.85em;">
+          <p class="note">Prevención <br>Coronavirus</p>
+        </a class="flexbox">
+        <a href="ppff.html" class="flexbox">
+          <img src="assets/icon_iso2.svg" class="icon" style="--height: 1.85em;">
+          <p class="note">Preguntas <br>Frecuentes</p>
+        </a>
+        <a href="estado-situacion.html" class="flexbox">
+          <img src="assets/icon_iso2.svg" class="icon" style="--height: 1.85em;">
+          <p class="note">Coronavirus <br>en San Martín</p>
+        </a>
+      </nav>
+      <!-- Mobile -->
+      <a href="index.html" class="flexcol only-mobile">
+        <img src="assets/iso_smencasa.svg" class="icon" style="height: 2.8em; margin-bottom: 0.5em;">
+        <p class="note marginless">SM en casa</p>
+      </a>
+      <a href="estado-situacion.html" class="flexcol only-mobile">
+        <img src="assets/icon_iso2.svg" class="icon" style="height: 2.8em; margin-bottom: 0.5em;">
+        <p class="note marginless">COVID San Martín</p>
+      </a>
+      <a href="http://cav.sanmartin.gov.ar/QyR/main.php" class="flexcol only-mobile">
+        <img src="assets/icon_cav.svg" class="icon" style="height: 2.8em; margin-bottom: 0.5em;">
+        <p class="note marginless">Reclamos</p>
+      </a>
+    </header>
+
+    <header id="msm">
+      <a id="sm-encasa" class="not-mobile float-left">
+        <img src="assets/isologo_smencasa.svg">
+      </a>
+      <a href="index.html" id="logo-sm">
+        <img src="assets/logo.svg" alt="Municipalidad de San Martín">
+      </a>
+      <div id="social" class="flexbox float-right not-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank"><img src="assets/icon_lupa.svg" class="icon"></a>
+        <a href="https://www.instagram.com/sanmartingob/" target="_blank"><img src="assets/icon_ig.svg" class="icon"></a>
+        <a href="https://twitter.com/sanmartingob" target="_blank"><img src="assets/icon_twitter.svg" class="icon"></a>
+        <a href="https://www.facebook.com/sanmartingob?_rdr" target="_blank"><img src="assets/icon_fb.svg" class="icon"></a>
+        <a href="https://www.youtube.com/channel/UCEAJLHb4SDDZbEeRJjtLXJA" target="_blank"><img src="assets/icon_youtube.svg" class="icon"></a>
+      </div>
+      <!-- Mobile -->
+      <div id="hamburguer" class="flexbox float-left only-mobile">
+        <img src="assets/icon_burger.svg" class="icon">
+      </div>
+      <div id="lupa" class="flexbox float-right only-mobile">
+        <a href="http://www.sanmartin.gov.ar/" target="_blank">
+          <img src="assets/icon_lupa-black.svg" class="icon">
+        </a>
+      </div>
+
+      <aside id="mobile-menu" class="only-mobile">
+        <nav class="flexcol flex-start">
+          <a href="http://www.sanmartin.gov.ar/"><img src="assets/msm-azul.svg" class="icon"></a>
+          <a href="http://guiatramites.sanmartin.gov.ar/guiatramites/">Guía de trámites</a>
+          <a href="http://cav.sanmartin.gov.ar/QyR/main.php">Reclamos</a>
+          <a href="estado-situacion.html">Coronavirus</a>
+          <a href="prevencion.html">Prevención</a>
+          <a href="ppff.html">Preguntas frecuentes</a>
+          <a href="index.html/#actividades">Actividades</a>
+          <a href="personas-mayores.html">Personas mayores</a>
+        </nav>
+      </aside>
+    </header>
+
+    <section id="banner-ays" class="banner not-mobile">
+      <article class="flexbox stretched">
+        <h3 class="marginless"><span class="black">San Martín en casa</span> | <span class="black t-magenta">Actividades</span> desde tu compu</h3>
+      </article>
+      <hr>
+      <article>
+        <nav class="flexbox seminote black">
+        </nav>
+      </article>
+    </section>
+
+    <section class="lista-articulos">
+    </section>
+
+    <section id="servicios">
+      <h3 class="bold t-celeste">servicios</h3>
+      <carrousel class="cards">
+        <items>
+          <item>
+            <a href="tasas.html" class="picture">
+              <img src="src/servicios/02_tasasmunicipales.jpg">
+              <p class="note bold t-azul">TASAS MUNICIPALES</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Financiación en hasta 3 y 6 cuotas, sin interés</p>
+                <p>Nuevas facilidades de pago para que puedas cumplir con tus tasas.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="http://ventanillavirtual.sanmartin.gov.ar/planeswebcovid/"><img src="assets/icon_share-cyan.svg"></a>
+                <a href="tasas.html" target="_blank"><img src="assets/icon_plus-cyan.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="personas-mayores.html" class="picture">
+              <img src="src/servicios/02_cuidemos-02.png">
+              <p class="note bold">ATENCIÓN INTEGRAL</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Cuidemos a las Personas Mayores</p>
+                <p>Asistencia telefónica a vecinos/as que requieren ayuda.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="personas-mayores.html"><img src="assets/icon_share-cyan.svg"></a>
+                <a href="personas-mayores.html" target="_blank"><img src="assets/icon_plus-cyan.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="http://www.sanmartin.gov.ar/denuncia-defensa-al-consumidor/" class="picture">
+              <img src="src/servicios/03_defensaalconsumidor.jpg">
+              <p class="note bold">DEFENSA AL CONSUMIDOR</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Tenés derechos, hacelos valer</p>
+                <p>Podés denunciar aumento de precios o faltantes por WhatsApp al 11 2282 527.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="http://www.sanmartin.gov.ar/denuncia-defensa-al-consumidor/"><img src="assets/icon_share-cyan.svg"></a>
+                <a href="http://www.sanmartin.gov.ar/denuncia-defensa-al-consumidor/" target="_blank"><img src="assets/icon_plus-cyan.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="http://www.sanmartin.gov.ar/espacio-mujeres-sitio/" class="picture">
+              <img src="src/servicios/04_espaciomujeres-01.jpg">
+              <p class="note bold">ESPACIO MUJERES</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">No estás sola, podemos ayudarte</p>
+                <p>Líneas de asistencia para víctimas de violencia de género, las 24 h.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="http://www.sanmartin.gov.ar/espacio-mujeres-sitio/"><img src="assets/icon_share-cyan.svg"></a>
+                <a href="http://www.sanmartin.gov.ar/espacio-mujeres-sitio/" target="_blank"><img src="assets/icon_plus-cyan.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="" class="picture">
+              <img src="src/servicios/09_thompson.png">
+              <p class="note bold">SALUD</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Nuevas líneas de atención telefónica</p>
+                <p>Para consultas sobre Coronavirus, atendidas por médicas/os.</p>
+              </div>
+              <div class="links">
+                <a class="share" href=""><img src="assets/icon_share-cyan.svg"></a>
+                <a href="" target="_blank"><img src="assets/icon_plus-cyan.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="http://www.sanmartin.gov.ar/transito/" class="picture">
+              <img src="src/servicios/central-transito.jpg">
+              <p class="note bold">TRÁNSITO</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Nueva prórroga de 90 días corridos</p>
+                <p>Para licencias de conducir con vencimiento entre el 15/2 y 14/5.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="http://www.sanmartin.gov.ar/transito/"><img src="assets/icon_share-cyan.svg"></a>
+                <a href="http://www.sanmartin.gov.ar/transito/" target="_blank"><img src="assets/icon_plus-cyan.svg"></a>
+              </div>
+            </div>
+          </item>
+
+          <item>
+            <a href="http://www.sanmartin.gov.ar/servicios/ingresos-municipales/" class="picture">
+              <img src="src/servicios/pagos-online.jpg">
+              <p class="note bold">TASAS MUNICIPALES</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Medios de pago online habilitados</p>
+                <p>Pagá tus tasas de una manera fácil y segura, sin salir de tu casa.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="http://www.sanmartin.gov.ar/servicios/ingresos-municipales/"><img src="assets/icon_share-cyan.svg"></a>
+                <a href="http://www.sanmartin.gov.ar/servicios/ingresos-municipales/" target="_blank"><img src="assets/icon_plus-cyan.svg"></a>
+              </div>
+            </div>
+          </item>
+
+          <item>
+            <a href="http://www.sanmartin.gov.ar/noticias/comenzamos-la-campana-de-vacunacion-antigripal-en-san-martin/" class="picture">
+              <img src="src/servicios/08_vacunacion.jpg">
+              <p class="note bold">SALUD</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Vacunación antigripal en centros de salud</p>
+                <p>Para mayores de 65 años y grupos de riesgo.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="http://www.sanmartin.gov.ar/noticias/comenzamos-la-campana-de-vacunacion-antigripal-en-san-martin/"><img src="assets/icon_share-cyan.svg"></a>
+                <a href="http://www.sanmartin.gov.ar/noticias/comenzamos-la-campana-de-vacunacion-antigripal-en-san-martin/" target="_blank"><img src="assets/icon_plus-cyan.svg"></a>
+              </div>
+            </div>
+          </item>
+          <item>
+            <a href="http://cav.sanmartin.gov.ar/QyR/main.php" target="_blank" class="picture">
+              <img src="src/servicios/10_CavOnline.png">
+              <p class="note bold">TRÁMITES ONLINE</p>
+            </a>
+            <div class="caption">
+              <div>
+                <p class="bold semibig">Centro de Atención Vecinal</p>
+                <p>Utilizá la aplicación web para realizar consultas y reclamos.</p>
+              </div>
+              <div class="links">
+                <a class="share" href="http://cav.sanmartin.gov.ar/QyR/main.php"><img src="assets/icon_share-cyan.svg"></a>
+                <a href="http://cav.sanmartin.gov.ar/QyR/main.php" target="_blank"><img src="assets/icon_plus-cyan.svg"></a>
+              </div>
+            </div>
+          </item>
+        </items>
+        <button type="prev" name="button">
+          <img src="assets/icon_arrow-cyan-izq.svg" class="icon">
+        </button>
+        <button type="next" name="button">
+          <img src="assets/icon_arrow-cyan-der.svg" class="icon">
+        </button>
+      </carrousel>
+      <div class="flexbox centered">
+        <a class="button b-celeste flexbox" href="servicios.html">
+          <p class="marginless">Ver todos los servicios</p>
+          <img class="arrow-button" src="assets/icon_arrow-white-der.svg" style="margin-left:3em;">
+        </a>
+      </div>
+    </section>
+
+    <footer class="stretched">
+      <img src="assets/msm-azul.svg" class="not-mobile">
+      <p class="note">
+        Municipalidad de San Martín<span class="not-mobile"> · </span><br class="only-mobile">Belgrano 3747 · <br class="only-mobile">Buenos Aires<span class="not-mobile"> · </span>Argentina<span class="not-mobile"> · </span><br class="only-mobile">
+        Tel. 147 <br> <span class="not-mobile"></span><br class="only-mobile"><br class="only-mobile">Copyright (c) 2020 <span class="not-mobile"> · </span><br class="only-mobile">Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <aside class="flexbox" id="share-warning">
+      <figure>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      </figure>
+      <p>¡Enlace copiado y listo para compartir!</p>
+    </aside>
+
+    <script type="text/javascript" src="js/actividades_db.js"></script>
+    <script type="text/javascript">
+      let actividadesFrame = document.querySelector(".lista-articulos");
+      printActividades(actividadesFrame);
+      window.requestAnimationFrame(function(){
+        if(window.scrollY > 0){
+          window.scrollBy(0, 0 - headerMsmOrigin - document.getElementById("banner-ays").offsetHeight);
+        }
+      });
+    </script>
+  </body>
+</html>
