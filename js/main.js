@@ -49,14 +49,18 @@ hamburguer.addEventListener("click", () => {
 let activos = document.getElementsByClassName("db-activos");
 let recuperados = document.getElementsByClassName("db-recuperados");
 let fallecidos = document.getElementsByClassName("db-fallecidos");
-let afectados = document.getElementsByClassName("db-afectados");
+let sospechosos = document.getElementsByClassName("db-sospechosos");
+let descartados = document.getElementsByClassName("db-descartados");
+let confirmados = document.getElementsByClassName("db-confirmados");
 let atencionPublica = document.getElementsByClassName("db-atencion-publica");
 let atencionPrivada = document.getElementsByClassName("db-atencion-privada");
 
 for(let activo of activos) activo.textContent = dashboardData.activos;
 for(let recuperado of recuperados) recuperado.textContent = dashboardData.recuperados;
 for(let fallecido of fallecidos) fallecido.textContent = dashboardData.fallecidos;
-for(let afectado of afectados) afectado.textContent = dashboardData.activos + dashboardData.recuperados + dashboardData.fallecidos;
+for(let sospechoso of sospechosos) sospechoso.textContent = dashboardData.sospechosos;
+for(let descartado of descartados) descartado.textContent = dashboardData.descartados;
+for(let confirmado of confirmados) confirmado.textContent = dashboardData.confirmados;
 
 for(let caso of atencionPublica) caso.textContent = dashboardData.atencionPublica;
 for(let caso of atencionPrivada) caso.textContent = dashboardData.atencionPrivada;

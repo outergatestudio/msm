@@ -6,7 +6,7 @@ const actividades_db = [
       {
         img: 'src/actividades/01_Gasometro.jpg',
         title: 'El Gasómetro',
-        text: 'A través de esta historia de Mundo San Martín, vas a conocer los secretos del tanque de gas ubicado en la Avenida Gral. Paz y Constituyentes, construído a fines de los años 40, y hoy es una fuente inagotable de mitos y leyendas.',
+        text: 'A través de esta historia de Mundo San Martín, vas a conocer los secretos del tanque de gas ubicado en la Avenida Gral. Paz y Constituyentes, construído a fines de los años 40, y que hoy es una fuente inagotable de mitos y leyendas.',
         href: 'https://www.youtube.com/watch?v=6GNdUFgSzZo'
       },
       {
@@ -120,7 +120,7 @@ const actividades_db = [
       {
         img: 'src/actividades-listado/_museo-jhernandez.png',
         title: 'De visita por el Museo Histórico José Hernández',
-        text: 'Recorrido visual y narrado por el museo ubicado en de la histórica Chacra Pueyrredón, lugar de nacimiento del escritor y poeta José Hernández, autor de El Martín Fierro, la obra más importante de la literatura gauchesca.',
+        text: 'Recorrido visual y narrado por el museo ubicado en la histórica Chacra Pueyrredón, lugar de nacimiento del escritor y poeta José Hernández, autor de El Martín Fierro, la obra más importante de la literatura gauchesca.',
         href: 'https://www.youtube.com/watch?v=6mdT2h_hMM8'
       },
       {
@@ -156,7 +156,7 @@ const actividades_db = [
       {
         img: 'src/actividades-listado/2/Miss Bolivia.jpg',
         title: 'Miss Bolivia nos comparte su día',
-        text: 'La cantante y psicóloga, más conocida como Miss Bolivia, cuenta cómo es el día a día en su casa y cómo está aprovechando el tiempo durante la cuarentena: familia, jardinería, música, y un mensaje muy especial para San Martín.',
+        text: 'La cantante y psicóloga, más conocida como Miss Bolivia, cuenta cómo está aprovechando el tiempo durante la cuarentena: familia, jardinería, música, y un mensaje muy especial para San Martín.',
         href: 'https://www.youtube.com/watch?v=HrPIDm0n-iY'
       },
       {

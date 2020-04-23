@@ -4,17 +4,17 @@ const servicios_db = [
     id: '',
     articles: [
       {
-        img: 'src/servicios/central-transito.jpg',
-        volanta: 'TRÁNSITO',
-        title: 'Validez de las licencias de conducir',
-        text: 'Las licencias con vencimiento entre el 15/2 y el 14/5 cuentan con una prórroga de 90 días de corrido a partir del día en que venció. Recordá que los turnos de renovación se encuentran suspendidos hasta nuevo aviso.',
-        href: ''
-      },
-      {
         img: 'src/servicios/pagos-online.jpg',
         volanta: 'TASAS MUNICIPALES',
         title: 'Medios de pago online ',
         text: 'Pagá tus tasas de una manera fácil y segura a través de los medios digitales habilitados: Pago Mis Cuentas, Red Link, Tarjetas Visa, Mastercard, American Express, Interbanking, Mercado Pago, y adhesión al débito automático.',
+        href: ''
+      },
+      {
+        img: 'src/servicios/central-transito.jpg',
+        volanta: 'TRÁNSITO',
+        title: 'Validez de las licencias de conducir',
+        text: 'Las licencias con vencimiento entre el 15/2 y el 14/5 cuentan con una prórroga de 90 días de corrido a partir del día en que venció. Recordá que los turnos de renovación se encuentran suspendidos hasta nuevo aviso.',
         href: ''
       },
       {
@@ -32,10 +32,10 @@ const servicios_db = [
         href: ''
       },
       {
-        img: 'src/servicios/05_turnostelefonicos.jpg',
-        volanta: 'SALUD',
-        title: 'Nuevas líneas de atención telefónica',
-        text: 'Más de 100 voluntarios brindan asistencia telefónica y/o atención integral a vecinos/as mayores de 60 años que requieren ayuda y contención durante el aislamiento social. Si conocés a una persona mayor en esta situación podés enviar un mail a: cuidarnos@sanmartin.gov.ar‬.',
+        img: 'src/servicios/06_cuidemos-01.jpg',
+        volanta: 'ATENCIÓN INTEGRAL',
+        title: 'Cuidemos a las personas mayores',
+        text: 'Más de 150 voluntarios y voluntarias brindan asistencia telefónica y/o atención integral a personas de más de 60 años que requieren ayuda y contención durante el aislamiento social. Si conocés a una persona mayor en esta situación, podés enviar un mail a cuidarnos@sanmartin.gov.ar‬ o comunicate por WhatsApp al 11 3179 7653.',
         href: ''
       },
       {
