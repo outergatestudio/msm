@@ -15,13 +15,61 @@ const noticias_db = [
     img: 'src/noticias-estado/_transito.png',
     copete: 'Puntos estratégicos',
     titulo: 'Operativos de control vehicular',
-    texto: 'Personal de Seguridad Ciudadana y la Dirección de Tránsito, junto a la Policía de la Provincia de Buenos Aires realizan operativos en calles y avenidas de la ciudad, a fin de asegurar el cumplimiento de la cuarentena.',
+    texto: 'Personal de Seguridad Ciudadana y la Dirección de Tránsito, junto a la Policía de la Provincia de Buenos Aires realizan operativos en calles y avenidas de la ciudad, a fin de asegurar el cumplimiento de la cuarentena. Además, se actúa de manera articulada en las áreas comunes de la Región Oeste junto a los Municipios Tres de Febrero, Hurlingham, San Miguel, Morón e Ituzaingó.',
   },
   {
     img: 'src/noticias-estado/_asistencia.png',
     copete: 'Programa municipal',
     titulo: 'Asistencia por aislamiento',
-    texto: 'A través de un llamado telefónico se ofrece asistencia a quienes hayan regresado de un viaje en el exterior, y se realiza un seguimiento para detectar situaciones que requieran una atención integral inmediata. ',
+    texto: 'A través de un llamado telefónico se ofrece asistencia a quienes hayan regresado de un viaje en el exterior, y se realiza un seguimiento para detectar situaciones que requieran una atención integral inmediata.',
+  },
+  {
+    img: 'src/noticias-estado/.png',
+    copete: 'EMERGENCIA SANITARIA',
+    titulo: 'Consejo Preventivo de Salud Municipal (CPS)',
+    texto: 'Integrado por diferentes áreas municipales, este comité de emergencia se reúne periódicamente y se conformó desde un primer momento para diseñar y aplicar medidas de prevención, y evitar el avance del Coronavirus en San Martín.',
+  },
+  {
+    img: 'src/noticias-estado/.png',
+    copete: 'RED DE SALUD',
+    titulo: 'Trabajo en conjunto',
+    texto: 'El Consejo Preventivo de Salud reunió a los equipos de los Hospitales Thompson, Belgrano, Eva Perón, Anchorena, Corporación Médica y Santa María, con el objetivo de coordinar los esfuerzos y fortalecer la red de salud en el Municipio.',
+  },
+  {
+    img: 'src/noticias-estado/.png',
+    copete: 'THOMPSON, MARENGO Y FLEMING',
+    titulo: 'Triage en los Hospitales Municipales',
+    texto: 'San Martín fue una de las primeras ciudades en instalar un triage en las inmediaciones de su hospital municipal, Dr. Diego Thompson, según el protocolo de la Organización Mundial de la Salud, a fin de evitar el contacto entre los pacientes. Ya se instaló otro triage en el Hospital Marengo, y muy pronto abrirá uno en el Hospital Fleming.',
+  },
+  {
+    img: 'src/noticias-estado/.png',
+    copete: 'MEDIDAS DE PROTECCIÓN',
+    titulo: 'Protocolo local de acción',
+    texto: 'En el marco del protocolo de acción que incluye medidas de limpieza, cuidado y prevención en los espacios municipales, se colocaron mamparas de vidrio en las recepciones y guardias de todos los hospitales y centros de salud para proteger a los equipos de salud.',
+  },
+  {
+    img: 'src/noticias-estado/.png',
+    copete: 'DISPOSITIVO ESPECIAL',
+    titulo: 'Asistencia y contención en los barrios de la ciudad',
+    texto: 'Por iniciativa de sacerdotes y movimientos barriales, instalamos gazebos en las entradas de los barrios donde se lleva a cabo una intensa campaña de información y concientización, se entregan tapabocas, y se mide la temperatura de quienes ingresan al barrio para hacer una derivación al Sistema de Salud ante la presencia de síntomas compatibles con la enfermedad.',
+  },
+  {
+    img: 'src/noticias-estado/.png',
+    copete: 'DISPOSITIVO ESPECIAL',
+    titulo: 'Articulación con "El barrio cuida al barrio"',
+    texto: 'Se realiza la desinfección de espacios públicos como veredas, plazas y centros comunitarios, se distribuyen insumos para la preparación de viandas para comedores, salitas y parroquias, y se trabaja especialmente con personas mayores para ofrecerles asistencia. Esta iniciativa en una primera etapa se está implementado en Villa Hidalgo, Carcova e Independencia.',
+  },
+  {
+    img: 'src/noticias-estado/.png',
+    copete: 'DEFENSA CIVIL',
+    titulo: 'Operativos de atención diaria de emergencias',
+    texto: 'Con la incorporación de personal para asegurar su operatividad plena, el área de Defensa Civil realiza la atención de emergencias severas en vía pública, la derivación de referencias recibidas sobre incumplimiento del aislamiento, intervención frente a denuncias por estanques con agua por presunción de foco Dengue y asistencia en puntos de atención bancaria, entre otras acciones.',
+  },
+  {
+    img: 'src/noticias-estado/.png',
+    copete: 'EMPRESAS LOCALES',
+    titulo: 'Programa de Acompañamiento a Pymes',
+    texto: 'A través de esta iniciativa se brinda información y asistencia a las empresas afectadas por la pandemia, como las medidas y resoluciones nacionales, provinciales y municipales, se realizó una encuesta especial del Observatorio Socioeconómico de San Martín para conocer su situación actual y se implementó una línea de asistencia para PyMES: 11 3685 7913.',
   }
 ]
 
