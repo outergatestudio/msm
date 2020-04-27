@@ -1,10 +1,10 @@
 const dashboardData = {
-  confirmados: 74,
+  confirmados: 93,
   activos: 0,
-  descartados: 508,
-  sospechosos: 106,
+  descartados: 643,
+  sospechosos: 133,
   recuperados: 0,
-  fallecidos: 4,
+  fallecidos: 7,
   atencionPrivada: '52%',
   atencionPublica: '48%'
 }

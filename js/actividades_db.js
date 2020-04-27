@@ -16,7 +16,7 @@ const actividades_db = [
         href: 'https://www.youtube.com/watch?v=7KN27ckjuU4'
       },
       {
-        img: 'src/actividades-listado/2/El Primer Pumpa_.jpg',
+        img: 'src/actividades-listado/-pumpa.png',
         title: 'El primer Pumpa',
         text: 'Daniel y su hijo Joaquín, fundaron el primer equipo nacional de rugby inclusivo formado por personas con discapacidad intelectual. La historia de Joaquín, vecino de San Andrés, inspiró y cambió la vida de cientos de personas a través del deporte.',
         href: 'https://www.youtube.com/watch?v=vS2xUrKt8A4'
